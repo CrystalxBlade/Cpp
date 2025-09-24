@@ -1,0 +1,11 @@
+# 📘 Classification of C++ Data Types
+
+| **Primary               ** | **Derived** | **User-defined** |
+|----------------------------|-------------|------------------|
+| int                        | Array       | struct           |
+| float                      | Pointer     | class            |
+| double                     | Reference   | enum             |
+| char                       | Function    | typedef          |
+| bool                       |             | union            |
+| void                       |             |                  |
+| wchar_t                    |             |                  |
