@@ -4,10 +4,10 @@ int main()
 {
     std::string name;
 
-    std::cout<<"Enter your name: ";
-    std::cin>>name;
+    std::cout << "Enter your name: ";
+    std::cin >> name;
 
-    std::cout<<"Name: "<<name<<std::endl;
+    std::cout << "Name: " << name << std::endl;
 
     return 0;
 }
