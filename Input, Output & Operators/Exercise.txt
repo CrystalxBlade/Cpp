@@ -1,0 +1,53 @@
+Arithmetic Operators
+
+Take two numbers as input and perform all arithmetic operations (+ - * / %).
+
+Find the remainder when one number is divided by another.
+
+Calculate the average of 5 numbers using arithmetic operators.
+
+Find the square and cube of a number.
+
+Relational Operators
+
+Check if two numbers are equal or not.
+
+Check if a number is greater than, less than, or equal to another.
+
+Check if a person is eligible to vote (age >= 18).
+
+Logical Operators
+
+Check if a number lies between 10 and 50 (inclusive).
+
+Check if a year is a leap year.
+
+Check if a person can donate blood (age >= 18 AND weight >= 50).
+
+Unary Operators
+
+Demonstrate pre-increment and post-increment difference.
+
+Demonstrate pre-decrement and post-decrement difference.
+
+Toggle a boolean value using !.
+
+Demonstrate bitwise NOT (~) on a number.
+
+Binary Operators
+
+Demonstrate bitwise AND, OR, XOR between two numbers.
+
+Check if a number is even or odd using bitwise operator (n & 1).
+
+Swap two numbers using bitwise XOR.
+
+Multiply a number by 2 using left shift (<<).
+
+Divide a number by 2 using right shift (>>).
+
+Assignment Operators
+
+Demonstrate all assignment operators (=, +=, -=, *=, /=, %=).
+
+Calculate a^b using repeated multiplication and *= operator.
