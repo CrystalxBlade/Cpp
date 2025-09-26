@@ -85,7 +85,7 @@ int main()
     area = 4 * M_PI * (r * r);
     std::cout << "surface area of a sphere = " << area << std::endl;
     
-    Q8.
+    Q9.
     -------------------------------->
 
     double volume, r = 6;
@@ -93,7 +93,7 @@ int main()
     volume = 4.0/3 * M_PI * (r * r * r);
     std::cout << "volume of sphere = " << volume << std::endl; 
 
-    Q9.
+    Q10.
     -------------------------------->
 
     double area, h, r = 2,
@@ -101,7 +101,7 @@ int main()
     area = 2 * M_PI * r * (h + 2) * M_PI * (r * r);
     std::cout << "surface area of a cylinder = " << area << std::endl;
 
-    Q9.
+    Q11.
     -------------------------------->
 
     double volume, r = 4, h = 2;
@@ -109,7 +109,7 @@ int main()
     volume = M_PI * (r * r) * h;
     std::cout << "volume of a cylinder = " << volume << std::endl;
 
-    Q10.
+    Q12.
     -------------------------------->
     
     double volume, r = 4, h = 2;
@@ -117,14 +117,14 @@ int main()
     volume = M_PI * (r * r) * h/3.0;
     std::cout << "volume of a cone = " << volume << std::endl;
 
-    Q11.
+    Q13.
     -------------------------------->
 
     double si, p = 1000 , r = 5, t = 2;
     si = p * r * t / 100;
     std::cout << "simple interest = " << si << std::endl; 
 
-    Q12.
+    Q14.
     -------------------------------->
     double fahrenheit = 45.2, celsius = 24.60, f, c;
 
