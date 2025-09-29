@@ -56,84 +56,18 @@ int main()
 
     Q5.
     -------------------------------->
-
-    double r = 2, pi = 31.4f, area;
-
-    area = pi * (r * r);
-    std::cout << "area of circle = " << area << std::endl;
+    int c = 'Z';
+    std::cout << "ASCII value = " << c << std::endl;
 
     Q6.
     -------------------------------->
 
-    float e = 4;
-    double area = 6 * (e * e);
-    std::cout << "surface area of cube = " << area << std::endl;
-
-    Q7.
-    -------------------------------->
-    
-    float e = 5;
-    double volume = e * e* e;
-
-    std::cout << "volume of cube = " << volume << std::endl;
-
-    Q8.
-    -------------------------------->
-    
-    double area, r = 2;  
-    
-    area = 4 * M_PI * (r * r);
-    std::cout << "surface area of a sphere = " << area << std::endl;
-    
-    Q9.
-    -------------------------------->
-
-    double volume, r = 6;
-
-    volume = 4.0/3 * M_PI * (r * r * r);
-    std::cout << "volume of sphere = " << volume << std::endl; 
-
-    Q10.
-    -------------------------------->
-
-    double area, h, r = 2,
-
-    area = 2 * M_PI * r * (h + 2) * M_PI * (r * r);
-    std::cout << "surface area of a cylinder = " << area << std::endl;
-
-    Q11.
-    -------------------------------->
-
-    double volume, r = 4, h = 2;
-    
-    volume = M_PI * (r * r) * h;
-    std::cout << "volume of a cylinder = " << volume << std::endl;
-
-    Q12.
-    -------------------------------->
-    
-    double volume, r = 4, h = 2;
-
-    volume = M_PI * (r * r) * h/3.0;
-    std::cout << "volume of a cone = " << volume << std::endl;
-
-    Q13.
-    -------------------------------->
-
-    double si, p = 1000 , r = 5, t = 2;
-    si = p * r * t / 100;
-    std::cout << "simple interest = " << si << std::endl; 
-
-    Q14.
-    -------------------------------->
-    double fahrenheit = 45.2, celsius = 24.60, f, c;
-
-    f = (celsius * 9.0/5) + 32; 
-    std::cout << "24.60 Celsius to Fahrenheit = " << f << std::endl; 
-
-    c = (fahrenheit - 32) * 5.0/9;
-    std::cout << "45.2 Fahrenheit to Celsius = " << c << std::endl;
+    int num = (int)26.85f;
+    int c = (int) 'D';
+    std::cout << "num = "<< num << std::endl;
+    std::cout << "char = "<< c << std::endl;
 
     */
+    
   return 0;
 }

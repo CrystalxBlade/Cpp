@@ -6,30 +6,6 @@ Swap two numbers using a third variable.
 
 Swap two numbers without using a third variable.
 
-Calculate the area of a circle (input radius).
-
-Calculate the surface area of a cube.
-
-Calculate the volume of a cube.
-
-Calculate the surface area of a sphere.
-
-Calculate the volume of a sphere.
-
-Calculate the surface area of a cylinder.
-
-Calculate the volume of a cylinder.
-
-Calculate the volume of a cone.
-
-Calculate simple interest (SI = P × R × T / 100).
-
-Convert Celsius to Fahrenheit and vice versa.
-
-Convert miles to kilometers.
-
-Input a number and print its square root (sqrt()).
-
 Take a character as input and print its ASCII value.
 
 Demonstrate type casting (e.g., float → int, int → char).
