@@ -84,17 +84,225 @@ int main()
         std::cout << "Not a Leap Year " << std::endl;
     }
 
-    */
+    Q6.
+    -------------------------------->
     
-    char ch = 'I';
-    char val = std::tolower(ch);
-    std::cout<<" Character : " << val; 
+    char ch;
+    std::cout << "Enter an alphabet: ";
+    std::cin >> ch;
+    std::tolower(ch);
     
-    /*
-    if ((ch = 'A')|| (ch = 'E')||(ch = 'I')||(ch = 'O')||(ch = 'U'))
+     if (ch >= 'A' && ch <= 'Z')    
     {
-        
+        ch = ch + 32;
     }
+
+    if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') 
+    {
+        std::cout << "It is a Vowel.\n"; 
+    } 
+    else if (ch >= 'a' && ch <= 'z') 
+    {
+        std::cout << "It is a Consonant.\n";
+    } 
+    else 
+    {
+        std::cout << "Not a valid alphabet.\n";
+    }
+
+    Q7.
+    -------------------------------->
+    
+    char ch;
+    std::cout << "Enter an alphabet: ";
+    std::cin >> ch;
+
+    if (ch >= 'A' && ch <= 'Z')
+    {
+        std::cout << "Uppercase Letter: " << ch << std::endl;
+    }
+    else if (ch >= 'a' && ch <= 'z')
+    {
+        std::cout << "Lowercase Letter: " << ch << std::endl;
+    }
+    else
+    {
+        std::cout << "Not an English alphabet." << std::endl;
+    }
+        
+    Q8.
+    -------------------------------->
+    
+    int num;
+    std::cout << "Enter a num: ";
+    std::cin >> num;
+
+    if (num % 5 == 0 && num % 11 == 0)
+    {
+       std::cout << num <<" is Divisibile by 5 and 11 " << std::endl;
+    }
+    else
+    {
+        std::cout << num <<" is Not divisibile by 5 and 11 " << std::endl;
+    }
+
+    Q9.
+    -------------------------------->
+
+    char ch;
+    std::cout << "Enter a character: ";
+    std::cin >> ch;
+
+    if (std::isalpha(ch))
+    {
+        std::cout << ch << " is a Alphabet" << std::endl;
+    }
+    else if (std::isdigit(ch))
+    {
+        std::cout << ch << " is a Digit" << std::endl;
+    }
+    else
+    {
+        std::cout << ch << " @is a Special Character" << std::endl;
+    }
+
+    Q10.
+    -------------------------------->
+     
+    double marks;
+    std::cout << "Enter marks: ";
+    std::cin >> marks;
+
+    if (marks >= 40)
+    {
+        std::cout << "Pass" << std::endl;
+    }
+    else
+    {
+        std::cout << "Fail" << std::endl;  
+    }
+
+    Q11.
+    -------------------------------->
+
+    double marks;
+    std::cout << "Enter marks: ";
+    std::cin >> marks;
+
+    if (marks >= 0 && marks <= 100)
+    {
+        if (marks >= 80 && marks <= 100)
+        {
+            std::cout << "A" << std::endl;
+        }
+        else if (marks >= 65 && marks < 80)
+        {
+            std::cout << "B" << std::endl;
+        }
+        else if (marks >= 50 && marks < 65)
+        {
+            std::cout << "C" << std::endl;
+        }
+        else if (marks >= 33 && marks < 50)
+        {
+            std::cout << "D" << std::endl;
+        }
+        else
+        {
+            std::cout << "Fail" << std::endl;  
+        }
+    }
+    else
+    {
+        std::cout << "Out of range or not a number" << std::endl;
+    }
+
+    Q12.
+    -------------------------------->
+
+    double num;
+    std::cout << "Enter a num: ";
+    std::cin >> num;
+    double val = num;
+
+    if (num < 0)
+    {
+        num = -num;
+    }
+
+    std::cout << "Absoluter value of " << val << " is: " << num << std::endl; 
+
+    Q13.
+    -------------------------------->
+
+    int a = 90, b = 90, c = 0, angles;
+    angles = a + b + c;
+
+    if (angles == 180)
+    {
+        std::cout << "Valid triangle";
+    }
+    else 
+    {
+        std::cout << "Not Valid triangle";
+    }
+
+    Q14.
+    -------------------------------->
+    
+    int a = 90, b = 45, c = 70;
+
+    if (a == b && b == c && c == a)
+    {
+        std::cout << "Equilateral triangle";
+    }
+    else if (a == b || b == c || c == a)
+    {
+        std::cout << "Isoscele triangle";
+    }
+    else
+    {
+        std::cout << "Scalene triangle";
+    }
+
+    Q15.
+    -------------------------------->
+
+    int age = 18;
+    if (age >= 18)
+    {
+       std::cout << " Eligibile to Vote";
+    }
+    else
+    {
+        std::cout << "Not eligibile to Vote";
+    }
+    
+    Q16.
+    -------------------------------->
+
+    int year;
+    std::cout << "Enter a century year (e.g., 1900 or 2000): ";
+    
+    if (std::cin >> year) 
+    {
+        if (year % 100 == 0) 
+        {
+            if (year % 400 == 0) 
+            {
+                std::cout << year << " is a **Leap Century Year**." << std::endl;
+            } 
+            else 
+            {
+                std::cout << year << " is a Century Year but is **NOT** a Leap Year." << std::endl;
+            }
+        } 
+        else 
+        {
+            std::cout << year << " is not a century year." << std::endl;
+        }
+    }
+
     */
     
     return 0;
