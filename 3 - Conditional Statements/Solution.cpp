@@ -280,7 +280,7 @@ int main()
     
     Q16.
     -------------------------------->
-
+    
     int year;
     std::cout << "Enter a century year (e.g., 1900 or 2000): ";
     
@@ -303,8 +303,87 @@ int main()
         }
     }
 
-    */
+    Q17.
+    -------------------------------->
     
+    double units, bill;
+    std::cout << "Enter electricity units used: ";
+    std::cin >> units;
+
+    if (units <= 100)
+    {
+        bill = units * 1.5;
+    }
+    else if (units <= 200)
+    {
+        bill = (100 * 1.5) + (units - 100) * 2.0;
+    }
+    else if (units <= 300)
+    {
+        bill = (100 * 1.5) + (100 * 2.0) + (units - 200) * 3.0;
+    }
+    else
+    {
+        bill = (100 * 1.5) + (100 * 2.0) + (100 * 3.0) + (units - 300) * 5.0;
+    }
+
+    std::cout << "Total Electricity Bill: " << bill << std::endl;
+    
+    Q18.
+    -------------------------------->
+
+    int sp, cp;
+    std::cout << "Enter Selling Price: ";
+    std::cin >> sp;
+    std::cout << "Enter Cost Price: ";
+    std::cin >> cp;
+
+    if (sp > cp)
+    {
+        std::cout << "** Pofit **";
+    }
+    else if (cp > sp)
+    {
+        std::cout << "** Loss **";
+    }
+    else
+    {
+        std::cout << "No profit & No loss";
+    }
+
+    */
+
+    int num;
+    std::cout << "Enter an integer: ";
+
+    if (!(std::cin>>num))
+    {
+       std::cout << "Invalid input, Please enter an integer " << std::endl;
+    }
+
+    int val = std::abs(num);
+
+    if (val >= 1000 && val <= 9999)
+    {
+        std::cout << "4 digits " << std::endl;
+    }
+    else if (val >= 100 && val <= 999)
+    {
+        std::cout << "3 digits " << std::endl;
+    }
+    else if (val >= 10 && val <= 99)
+    {
+        std::cout << "2 digits " << std::endl;
+    }
+    else if (val >= 0)
+    {
+        std::cout << "1 digit " << std::endl;
+    }
+    else 
+    {
+        std::cout << "Number with more than 4 digits are Unexpected values" << std::endl;
+    }
+   
     return 0;
     
 }
