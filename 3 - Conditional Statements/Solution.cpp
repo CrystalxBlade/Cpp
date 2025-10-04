@@ -351,7 +351,8 @@ int main()
         std::cout << "No profit & No loss";
     }
 
-    */
+    Q19.
+    -------------------------------->
 
     int num;
     std::cout << "Enter an integer: ";
@@ -383,7 +384,8 @@ int main()
     {
         std::cout << "Number with more than 4 digits are Unexpected values" << std::endl;
     }
-   
+
+    */
     return 0;
     
 }
