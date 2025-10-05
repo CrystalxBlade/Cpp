@@ -385,7 +385,32 @@ int main()
         std::cout << "Number with more than 4 digits are Unexpected values" << std::endl;
     }
 
-    */
+    Q20.
+    -------------------------------->
+
+    double x, y;
+
+    std::cout << "Enter the X coordinate: ";
+    std::cin >> x;
+    std::cout << "Enter the Y coordinate: ";
+    std::cin >> y;
+
+    if (x > 0 && y > 0)
+        std::cout << "The coordinate point (" << x << "," << y << ") lies in the First quadrant." << std::endl;
+    else if (x < 0 && y > 0)
+        std::cout << "The coordinate point (" << x << "," << y << ") lies in the Second quadrant." << std::endl;
+    else if (x < 0 && y < 0)
+        std::cout << "The coordinate point (" << x << "," << y << ") lies in the Third quadrant." << std::endl;
+    else if (x > 0 && y < 0)
+        std::cout << "The coordinate point (" << x << "," << y << ") lies in the Fourth quadrant." << std::endl;
+    else if (x == 0 && y == 0)
+        std::cout << "The coordinate point (" << x << "," << y << ") lies at the Origin." << std::endl;
+    else if (x == 0)
+        std::cout << "The coordinate point (" << x << "," << y << ") lies on the Y axis." << std::endl;
+    else if (y == 0)
+        std::cout << "The coordinate point (" << x << "," << y << ") lies on the X axis." << std::endl;
+    */    
+
     return 0;
     
 }

@@ -121,7 +121,20 @@ int main()
     double perimeter = 2 * PI * r;
     std::cout << "Perimeter (Circumference) of circle = " << perimeter << std::endl;
 
-    */
+    Q15.
+    -------------------------------->  Area of triangle => 1/2*b*h;
+    
+    double b, h, area;
+
+    std::cout << "Enter the base: ";
+    std::cin >> b;
+    std::cout << "Enter the height: ";
+    std::cin >> h;
+
+    area = 0.5 * b * h;
+
+    std::cout << "Area of triangle = " << area << std::endl;
    
+    */
     return 0;
 }

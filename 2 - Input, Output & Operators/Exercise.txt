@@ -12,3 +12,4 @@ Convert miles to kilometers (km = miles × 1.60934).
 Input a number and print its square root (sqrt(n)).
 Calculate perimeter of a rectangle (2 × (l + b)).
 Calculate perimeter of a circle (2 × π × r).
+Area of triangle => 1/2*b*h;
