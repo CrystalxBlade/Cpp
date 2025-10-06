@@ -1,0 +1,24 @@
+1️⃣ Reverse a number (e.g. 123 → 321)
+2️⃣ Count the number of digits in a number
+3️⃣ Print the factorial of a given number
+4️⃣ Check if a number is a palindrome (same forward and backward)
+5️⃣ Find the largest digit in a number
+6️⃣ Print the Fibonacci series up to n terms
+7️⃣ Check if a number is prime
+8️⃣ Print all prime numbers between 1 and 100
+9️⃣ Print all factors of a number
+🔟 Find GCD (HCF) and LCM of two numbers
+11️⃣ Find the power of a number (e.g. a^b) without using pow()
+12️⃣ Check if a number is an Armstrong number (e.g. 153)
+13️⃣ Find all Armstrong numbers between 1 and 1000
+14️⃣ Check if a number is a strong number (sum of factorial of digits = number)
+15️⃣ Print all prime numbers in a range using nested loops
+16️⃣ Write a program to display the cube of numbers up to a given integer.
+17️⃣ Write a program to display multiplication tables vertically from 1 to n.
+18️⃣ Take a, n, d from user and print Arithmetic Progression (A.P).
+19️⃣ Take a number and count:
+-its length
+-sum of odd and even digits
+then use those two sums as first and second Fibonacci terms → print Fibonacci till n terms.
+20️⃣ Write a program to find the greatest common divisor (GCD) of two numbers.
+21️⃣ Implement prime factorization of a number (print prime factors with exponents).
