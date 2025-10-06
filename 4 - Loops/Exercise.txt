@@ -1,4 +1,4 @@
-Reverse a number (e.g. 123 → 321)
+1 ------- Reverse a number (e.g. 123 → 321)
 Count the number of digits in a number
 Print the factorial of a given number
 Check if a number is a palindrome (same forward and backward)
