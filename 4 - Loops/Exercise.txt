@@ -16,9 +16,9 @@ Print all prime numbers in a range using nested loops
 Write a program to display the cube of numbers up to a given integer.
 Write a program to display multiplication tables vertically from 1 to n.
 Take a, n, d from user and print Arithmetic Progression (A.P).
-Take a number and count:
--its length
--sum of odd and even digits
+Take a number and count:  -its length
+                          -sum of odd and even digits
 then use those two sums as first and second Fibonacci terms → print Fibonacci till n terms.
+
 Write a program to find the greatest common divisor (GCD) of two numbers.
 Implement prime factorization of a number (print prime factors with exponents).
