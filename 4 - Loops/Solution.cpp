@@ -2,6 +2,7 @@
 
 int main()
 {
+    
     /*
 
     Q1.
@@ -17,6 +18,56 @@ int main()
     }
 
     std::cout <<"Reverse num: " << rev << std::endl;
+    
+    Q2.
+    -------------------------------->
+
+    int num = 45067, count = 0;
+
+    if (num == 0)
+    {
+        count = 1;
+    }
+    else
+    {
+        while (num > 0)
+        {
+           num = num/10;
+           count++;
+        }
+        std::cout << "There are " << count << " digits " << std::endl;
+    }
+
+    Q3.
+    -------------------------------->
+
+    long fact = 1, num = 5;
+
+    for(int i = 1; i <= num; i++)
+    {
+        fact = fact * i;
+    }
+    std::cout << "factorial of " << num << " is = " << fact << std::endl;
+
+    Q4.
+    -------------------------------->
+
+    int num = 121, rev = 0, rem;
+    int temp = num;
+    while (num > 0)
+    {
+        rem = num%10;
+        rev = rev * 10 + rem;
+        num = num/10;
+    }
+    if (temp == rev)
+    {
+        std::cout << "Palindrome number: " << rev << std::endl;
+    }
+    else
+    {
+        std::cout << "Not a Palindrome: " << rev << std::endl;
+    }
 
     */
 
