@@ -87,8 +87,45 @@ int main()
 
     std::cout<<"Greatest value is: " << max << std::endl;
 
+    Q6.
+    -------------------------------->
+
+    int a = 0, b = 1, c;
+
+    for(int i = 0; i < 10; i++)
+    {
+        c = a + b;
+        std::cout << a << "\n";
+        a = b;
+        b = c;
+    }
+        
+    ----------------  OR  ----------------
+
+    int a = 0, b = 1, c;
+
+    std::cout << a << "\n";
+
+    if (b <= 55)
+    {
+        std::cout << b << "\n";
+    }
+
+    while (b < 55)
+    {
+        c = a + b;
+        
+        if (c > 55)
+        {
+            break;
+        }
+        std::cout << c << "\n";
+
+        a = b;
+        b = c;
+    }
+
     */
-    
 
     return 0;
 }
