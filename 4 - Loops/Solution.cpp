@@ -69,7 +69,26 @@ int main()
         std::cout << "Not a Palindrome: " << rev << std::endl;
     }
 
+    Q5.
+    -------------------------------->
+
+    int max = 0, num = 4621, rem;
+
+    while (num > 0)
+    {
+        rem = num%10;
+        
+        if (rem > max)
+        {
+            max = rem;
+        }
+        num = num/10;
+    }
+
+    std::cout<<"Greatest value is: " << max << std::endl;
+
     */
+    
 
     return 0;
 }
