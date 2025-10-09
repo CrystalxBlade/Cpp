@@ -125,7 +125,53 @@ int main()
         b = c;
     }
 
+    Q7.
+    -------------------------------->
+
+    int temp = 0, num = 7;
+
+    for(int i = 2; i <= num-1; i++)
+    {
+        if (num % i == 0)
+        {
+            temp++;
+        }
+    }
+    if (temp > 0)
+    {
+        std::cout << num << " is not prime number " << std::endl;
+    }
+    else
+    {
+        std::cout << num << " is a prime number " << std::endl;
+    }
+
+    Q8.
+    -------------------------------->
+   
+    int num = 100, temp = 0;
+
+    for(int i = 2; i <= num; i++)
+    {
+        for(int j = 2; j <= i - 1; j++)
+        {
+            if(i % j == 0)
+            {
+                temp++;
+            }
+        }
+        if (temp == 0)
+        {
+            std::cout << i << std::endl;
+        }
+        else
+        {
+            temp = 0;
+        }
+    }
+
     */
 
+
     return 0;
-}
+} 
