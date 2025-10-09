@@ -170,8 +170,58 @@ int main()
         }
     }
 
+    Q9.
+    -------------------------------->
+
+    int num;
+    std::cout << "Enter a number: ";
+    std::cin >> num;
+
+    for(int i = 1; i <= num; i++)
+    {
+        if(num % i == 0)
+        {
+            std::cout << i << " ";
+        }
+    }
+
+    Q10.
+    -------------------------------->
+
+    int a = 28, b = 42;
+
+    for(int i = a; i >= 1; i--)
+    {
+        if (a % i == 0  && b % i == 0)
+        {
+            std::cout << "GCD/HCF is: " << i;
+            break;
+        }
+        
+    }
+
+    ----------------  LCM ----------------
+
+    int a = 28, b = 42, c;
+
+    if (a > b)
+    {
+        c = a;
+    }
+    else
+    {
+        c = b;
+    }
+    
+    for(int i = c; ; i++)
+    {
+        if (i % a == 0 && i % b == 0)
+        {
+            std::cout << "LCM is:  " << i;
+            break;
+        }
+    }
+
     */
-
-
     return 0;
 } 
