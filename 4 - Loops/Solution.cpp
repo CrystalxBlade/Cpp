@@ -222,6 +222,26 @@ int main()
         }
     }
 
+    Q11.
+    -------------------------------->
+
+    int result = 1, base, exp, temp;
+
+    std::cout << "Enter the base: ";
+    std::cin >> base;
+    std::cout << "Enter the exp: ";
+    std::cin >> exp;
+
+    temp = exp;
+
+    while (exp != 0)
+    {
+        result = result * base;
+        exp--;
+    }
+
+    std::cout << base << " ^ " << temp <<" = " <<  result; 
     */
+   
     return 0;
 } 
