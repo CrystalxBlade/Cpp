@@ -242,6 +242,26 @@ int main()
 
     std::cout << base << " ^ " << temp <<" = " <<  result; 
     */
+
+    int num = 153, rem, temp, sum = 0;
+
+    temp = num;
+
+    while (num > 0)
+    {
+        rem = num % 10;
+        sum = sum + (rem * rem * rem);
+        num = num / 10;
+    }
+
+    if (temp == sum)
+    {
+        std::cout << "Armstrong Number: " << sum << std::endl;
+    }
+    else
+    {
+        std::cout << "Not a Armstrong Number: " << sum << std::endl;
+    }
    
     return 0;
 } 
