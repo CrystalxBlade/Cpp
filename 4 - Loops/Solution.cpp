@@ -241,8 +241,10 @@ int main()
     }
 
     std::cout << base << " ^ " << temp <<" = " <<  result; 
-    */
 
+    Q12.
+    -------------------------------->
+    
     int num = 153, rem, temp, sum = 0;
 
     temp = num;
@@ -262,6 +264,31 @@ int main()
     {
         std::cout << "Not a Armstrong Number: " << sum << std::endl;
     }
-   
+
+    Q13.
+    -------------------------------->
+
+    int rem;
+    
+    for(int i = 1; i <= 1000; i++) 
+    {
+        int num = i, sum = 0, check_num = i; 
+
+        while (check_num > 0) 
+        {
+            rem = check_num % 10;
+            sum = sum + (rem * rem * rem); 
+            check_num = check_num / 10;
+        }
+
+        if (num == sum) 
+        {
+            std::cout << num << std::endl;
+        }
+    }
+
+    */
+  
+    
     return 0;
 } 
