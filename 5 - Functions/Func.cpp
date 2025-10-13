@@ -1,24 +1,20 @@
 #include <iostream>
 
-// Non Parameterized, without Return type
 void Func()
 {
     std::cout << "1. Non Parameterized without Return type\n";
 }
 
-// Non Parameterized, with Return type (returns a string)
 std::string FuncR()
 {
     return "2. Non Parameterized with Return type";
 }
 
-// Parameterized, without Return type (void)
 void FuncP(int a, int b)
 {
     std::cout << "3. Parameterized without Return type: Sum is " << a + b << "\n";
 }
 
-// Parameterized, with Return type (returns int)
 int FuncPR(int a, int b)
 {
     return a + b;
