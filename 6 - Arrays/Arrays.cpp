@@ -2,26 +2,29 @@
 
 int main()
 {
+
+  //----------------------- Declaration -----------------------
+  
  
   //  🧱 1. Fixed-size array (basic declaration)  
 
-    int numbers[5]; 
+        int numbers[5]; 
 
   /*  🧩 2. Declaration with initialization
       👉 You declare and assign values at the same time. */
 
-    int numbers[5] = {10, 20, 30, 40, 50};
+        int numbers[5] = {10, 20, 30, 40, 50};
 
 
   /*  ⚡ 3. Let compiler decide the size
       👉 The compiler counts how many values you give. */ 
    
-    int numbers[] = {10, 20, 30, 40, 50};
+        int numbers[] = {10, 20, 30, 40, 50};
 
   /*  🎯 4. Partial initialization
       You can give fewer values — remaining elements become 0. */
 
-    int numbers[5] = {10, 20}; 
+        int numbers[5] = {10, 20}; 
 
   // Equivalent to {10, 20, 0, 0, 0}
 
@@ -29,12 +32,12 @@ int main()
       Used for storing text manually (without string type). */
 
 
-    char name[6] = {'B', 'l', 'a', 'd', 'e', '\0'};
+        char name[6] = {'B', 'l', 'a', 'd', 'e', '\0'};
 
    /* 🧊 6. 2D Array (Matrix / Table)
       👉 Used for rows and columns. */
 
-    int matrix[2][3] = { {1, 2, 3}, {4, 5, 6} };
+        int matrix[2][3] = { {1, 2, 3}, {4, 5, 6} };
 
    /* 🧠 7. Array with constant variable as size
         Sometimes we declare the size using a variable. */
