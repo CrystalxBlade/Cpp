@@ -22,7 +22,7 @@ int main()
     }
     std::cout << "Greatest num: " << temp << std::endl;
 
-    */
+    
 
     int size = 5;
     int num[size] = {4, 2, 9, 7, 6};
@@ -41,6 +41,12 @@ int main()
         }
     }
     std::cout << "Smallest num: " << temp << std::endl;
+
+    */
+
+    double nums[] = {5,1,7,9,2};
+
+    std::cout << sizeof(nums)/ sizeof(double) << std::endl;
     
     return 0;
 }
