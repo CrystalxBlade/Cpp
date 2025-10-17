@@ -28,8 +28,6 @@ int main()
         std::cout << "\n";
     }
 
-    */
-
     char ch = 'A';
     
     for(int i = 1; i <= 5; i++)
@@ -41,5 +39,28 @@ int main()
         std::cout << "\n";
         ch = ch + 1;
     }
+
+    char ch = 'A';
+
+    for(int i = 1; i <= 4; i++)
+    {
+        for(int j = 1; j <= i; j++)
+        {
+            std::cout << ch << " ";
+            ch = ch + 1;
+        }
+        std::cout << "\n";
+    }
+        
+    for(char i = 'A'; i <= 'D'; i++)
+    {
+        for(char j = i; j >= 'A'; j--)
+        {
+            std::cout << j << " ";
+        }
+        std::cout << "\n";
+    }
+
+    */
 
 }
