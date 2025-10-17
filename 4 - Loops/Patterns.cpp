@@ -19,6 +19,8 @@ int main()
         std::cout << "\n";
     }
 
+          Square 
+
     int n = 4, num = 1;
    
     for (int i = 0; i < n; i++)
@@ -30,6 +32,8 @@ int main()
         }
         std::cout << "\n"; 
     }
+
+          Triangle
 
     for(int i = 0; i < 4; i++)
     {
@@ -58,6 +62,8 @@ int main()
         std::cout << "\n";
     }
 
+        Rverse Triangle
+
     for(int i = 1; i <= 4; i++)
     {
         for(int j = i; j > 0; j--)
@@ -67,7 +73,19 @@ int main()
         std::cout << "\n";
     }
 
-    */
+       Floyd's Triangle
+    
+    int num = 0;
+    
+    for(int i = 1; i <= 4; i++)
+    {
+        for(int j = 1; j <= i; j++)
+        {
+            num++;
+            std::cout << num << " ";
+        }
+        std::cout << "\n";
+    }
 
-    for(int i = 0; i <= )
+    */
 }
