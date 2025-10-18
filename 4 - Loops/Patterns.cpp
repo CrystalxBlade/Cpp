@@ -85,11 +85,9 @@ int main()
             std::cout << num << " ";
         }
         std::cout << "\n";
-
-        Inverted Triangle
     }
-
-    */
+         
+       Inverted Triangle
 
     for(int i = 1; i <=4; i++)
     {
@@ -103,4 +101,6 @@ int main()
         }
         std::cout << "\n";
     }
+
+     */
 }
