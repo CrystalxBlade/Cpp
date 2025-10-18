@@ -63,4 +63,21 @@ int main()
 
     */
 
+    int n = 4;
+
+    for(int i = 0; i < n; i++)
+    {
+        for(int k = 0; k < i; k++)
+        {
+            std::cout << " ";
+        }
+        for(int j = 0; j < n-i; j++)
+        {
+            std::cout << i+1;
+        }
+        std::cout << "\n";
+    }
+
+
+    return 0;
 }
