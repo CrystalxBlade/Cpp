@@ -61,7 +61,6 @@ int main()
         std::cout << "\n";
     }
 
-    */
 
     int n = 4;
 
@@ -78,6 +77,6 @@ int main()
         std::cout << "\n";
     }
 
-
+    */
     return 0;
 }
