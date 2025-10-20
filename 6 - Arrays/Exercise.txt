@@ -1,0 +1,121 @@
+🟢 1D Array – Basics (Level 1)
+
+Input and print all elements of an array.
+
+Find the sum of all array elements.
+
+Find the maximum and minimum elements.
+
+Count even and odd numbers in the array.
+
+Reverse the array elements.
+
+Copy one array into another array.
+
+Find the average of array elements.
+
+Search for an element (linear search).
+
+Count occurrences of a given element.
+
+Replace all negative numbers with 0.
+
+🟡 1D Array – Intermediate (Level 2)
+
+Sort an array (Bubble Sort / Selection Sort / Insertion Sort).
+
+Find the 2nd largest and 2nd smallest element.
+
+Find the frequency of each element in an array.
+
+Remove duplicates from a sorted array.
+
+Merge two arrays into one.
+
+Separate even and odd numbers into two arrays.
+
+Shift (rotate) elements left or right by k positions.
+
+Find the sum of elements at even and odd indices separately.
+
+Count positive, negative, and zero elements.
+
+Find the difference between the largest and smallest element.
+
+🟠 1D Array – Advanced (Level 3)
+
+Find missing number in a consecutive array (1–n).
+
+Find all pairs with a given sum.
+
+Find the subarray with the largest sum (Kadane’s Algorithm – intro).
+
+Check if the array is sorted.
+
+Find common elements between two arrays.
+
+Move all zeroes to the end of the array.
+
+Find product of all elements except the current index.
+
+Count how many numbers are greater than average.
+
+Rearrange array in alternating positive and negative numbers.
+
+Print frequency of digits in an array of numbers.
+
+🔵 2D Array – Basics (Level 1)
+
+Input and print elements of a 2D array (matrix).
+
+Find sum of all elements in a matrix.
+
+Find sum of each row and each column.
+
+Print the main and secondary diagonals.
+
+Find the transpose of a matrix.
+
+Count positive, negative, zero, even, and odd elements in a matrix.
+
+Search for an element in a matrix.
+
+Print matrix in row-major and column-major order.
+
+Print the boundary elements of a matrix.
+
+Check if a matrix is square or not.
+
+🔴 2D Array – Advanced (Level 2–3)
+
+Add two matrices.
+
+Subtract two matrices.
+
+Multiply two matrices.
+
+Find the upper and lower triangular matrix.
+
+Check if a matrix is symmetric.
+
+Rotate matrix 90°, 180°, 270°.
+
+Find the maximum element in each row and column.
+
+Print a matrix in spiral order.
+
+Find the sum of diagonal and boundary elements.
+
+Convert a 2D array into a 1D array (flatten).
+
+⚫ Extra (Multidimensional & Mixed Concepts)
+
+Work with a 3D array: input and display values.
+
+Find the total sum of a 3D array.
+
+Store and display marks of students in multiple subjects (2D array practical).
+
+Print Pascal’s Triangle (uses 2D logic).
+
+Implement matrix exponentiation (for power of matrix).
