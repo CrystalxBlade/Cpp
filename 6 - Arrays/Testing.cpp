@@ -60,7 +60,7 @@ int main()
     {
         if (num[i] == x)
         {
-            std::cout << "x value is here: " << num[i] << " ";
+            std::cout << "x value is here: " << i << " ";
             break;
         }
     }
