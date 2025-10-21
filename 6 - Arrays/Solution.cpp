@@ -22,7 +22,8 @@ int main()
         std::cout << n << " ";
     }
 
-    */
+    Q2.
+    -------------------------------->
 
     const int size = 10;
     int num[size] = {7, 2, 11, 4, 8, 6, 0, 8, 14, 10};
@@ -36,5 +37,68 @@ int main()
 
     std::cout << "Sum of elements: " << sum << std::endl;
 
+    Q3.
+    -------------------------------->
+
+    const int size = 10;
+    int num[size] = {7, 2, 11, 4, 8, 6, 0, 8, 14, 10};
+
+    int max = num[0];
+
+    for(int i = 0; i < size; i++)
+    {
+        if (max < num[i])
+        {
+            max = num[i];
+        }
+    }
+
+    std::cout << "Maximum value is: " << max << std::endl;
+
+    ----------- and ----------- 
+
+    const int size = 10;
+    int num[size] = {7, 2, 11, 4, 8, 6, 9, 8, 14, 10};
+
+    int min = num[0];
+
+    for(int i = 0; i < size; i++)
+    {
+        if (num[i] < min)
+        {
+            min = num[i];
+        }
+    }
+
+    std::cout << "Minimum value is: " << min << std::endl;
+
+    Q4.
+    -------------------------------->
+    
+    const int size = 10;
+    int num[size] = {7, 2, 11, 4, 8, 6, 9, 8, 14, 10};
+
+    for(int i = 0; i < size; i++)
+    {
+        if(num[i] % 2 == 0)
+        {
+            std::cout << num[i] << " ";
+        }
+    }
+
+    ----------- and -----------
+    
+    const int size = 10;
+    int num[size] = {7, 2, 11, 4, 8, 6, 9, 8, 14, 10};
+
+    for(int i = 0; i < size; i++)
+    {
+        if(num[i] % 2 == 1)
+        {
+            std::cout << num[i] << " ";
+        }
+    }
+
+    */
     return 0;
 }
