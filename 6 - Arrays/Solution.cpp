@@ -100,5 +100,14 @@ int main()
     }
 
     */
+    const int size = 10;
+
+    int num[size] = {7, 2, 11, 4, 8, 6, 9, 8, 14, 10};
+
+    for(int i = size; i >= 0; i--)
+    {
+        std::cout << num[i] << " ";
+    }
+
     return 0;
 }
