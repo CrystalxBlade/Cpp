@@ -2,6 +2,7 @@
 
 int main()
 {
+    /*
     const int size = 5;
     int num[size];
 
@@ -16,4 +17,6 @@ int main()
     {
         std::cout << n << " ";
     }
+        
+    */
 }
