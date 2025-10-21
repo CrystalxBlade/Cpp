@@ -2,11 +2,12 @@
 
 int main()
 {
-    
-    int num[5];
+    const int size = 5;
+    int num[size];
+
     std::cout << "Input 5 digits: ";
     
-    for(int i = 0; i < 5; i++)
+    for(int i = 0; i < size; i++)
     {
         std::cin >> num[i];
     }
