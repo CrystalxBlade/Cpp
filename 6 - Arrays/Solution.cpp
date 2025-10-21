@@ -3,6 +3,10 @@
 int main()
 {
     /*
+
+    Q1.
+    -------------------------------->
+
     const int size = 5;
     int num[size];
 
@@ -20,6 +24,17 @@ int main()
 
     */
 
-    
+    const int size = 10;
+    int num[size] = {7, 2, 11, 4, 8, 6, 0, 8, 14, 10};
 
+    int sum = 0;
+
+    for(int i = 0; i < size; i++)
+    {
+        sum += num[i];
+    }
+
+    std::cout << "Sum of elements: " << sum << std::endl;
+
+    return 0;
 }
