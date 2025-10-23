@@ -47,8 +47,6 @@ int main()
 
     std::cout << sizeof(nums)/ sizeof(double) << std::endl;
 
-    */
-
     int num [8], x = 6;
 
     for (int i = 0; i < 8; i++)
@@ -65,5 +63,29 @@ int main()
         }
     }
 
+     */
+
+     int num[5] = {6, 7, 8, 9, 10};
+
+     int start = 0;
+     int end = 4;
+
+     while (start < end)
+     {
+        int temp = num[start];
+        num[start] = num[end];
+        num[end] = temp; 
+
+        start++;
+        end--;
+     }
+
+    std::cout << "Reversed array: ";
+
+    for (int i = 0; i < 5; i++)
+    {
+        std::cout << num[i] << " ";
+    }
+     
     return 0;
 }

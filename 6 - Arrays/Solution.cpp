@@ -101,31 +101,27 @@ int main()
 
     */
 
-    const int size = 10;
-    int num[size] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-    int temp; 
+    int num[5] = {6, 7, 8, 9, 10};
 
-    std::cout << "Original array: ";
-    for(int n : num) 
-    {
-        std::cout << n << " ";
-    }
-    std::cout << "\n";
+    int start = 0;
+    int end = 4;
 
-    for (int i = 0, j = size - 1; i < size / 2; i++, j--)
+    while (start < end)
     {
-        temp = num[i];
-        num[i] = num[j];
-        num[j] = temp;
+        int temp = num[start];
+        num[start] = num[end];
+        num[end] = temp; 
+
+        start++;
+        end--;
     }
 
     std::cout << "Reversed array: ";
-    for(int n : num) 
-    {
-        std::cout << n << " ";
-    }
-    std::cout << "\n";
-    
 
+    for (int i = 0; i < 5; i++)
+    {
+        std::cout << num[i] << " ";
+    }
+    
     return 0;
 }
