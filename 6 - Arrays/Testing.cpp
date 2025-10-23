@@ -63,29 +63,26 @@ int main()
         }
     }
 
-     */
+    */
 
-     int num[5] = {6, 7, 8, 9, 10};
+    int num[5] = {6, 7, 8, 9, 10};
 
-     int start = 0;
-     int end = 4;
+    int start = 0, end = 4;
 
-     while (start < end)
-     {
-        int temp = num[start];
-        num[start] = num[end];
-        num[end] = temp; 
+    while(start < end)
+    {
+        int temp = num[start]; // temp 6   // temp 7  // 
+        num[start] = num[end]; // start 10 // temp 9
+        num[end] = temp;       // end 6   // end 7
 
-        start++;
-        end--;
-     }
+        start++; // 1 // 2 
+        end--;  //3  // 2
+    }
 
-    std::cout << "Reversed array: ";
-
-    for (int i = 0; i < 5; i++)
+    for(int i = 0; i < 5; i++)
     {
         std::cout << num[i] << " ";
     }
-     
+    
     return 0;
 }
