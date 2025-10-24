@@ -94,7 +94,8 @@ int main()
     std::cout << "Even: " << even << std::endl;
     std::cout << "Odd: " << odd;
 
-    */
+    Q5.
+    -------------------------------->
 
     int num[5] = {6, 7, 8, 9, 10};
 
@@ -117,6 +118,41 @@ int main()
     {
         std::cout << num[i] << " ";
     }
+
+    Q6.
+    -------------------------------->
+
+    int num[5] = {2, 4, 6, 8, 10};
+
+    int arr[5];
+
+    for(int i = 0; i < 5; i++)
+    {
+       arr[i] = num[i];
+    }
     
+    for(int i : arr)
+    {
+        std::cout << i << " ";
+    }
+
+    Q7.
+    -------------------------------->
+
+    const int size = 5;
+    int num[size] = {2, 4, 6, 8, 10};
+
+    int i = 0;
+    float sum = 0.0f; 
+    while (i < size)
+    {
+        sum += num[i];
+        i++;
+    }
+
+    float average = sum / size;
+    std::cout << "The average is: " << average << std::endl;
+    */
+   
     return 0;
 }
