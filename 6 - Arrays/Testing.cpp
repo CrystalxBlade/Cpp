@@ -82,8 +82,6 @@ int main()
         std::cout << num[i] << " ";
     }
 
-    */
-
     int num[5] = {2, 4, 6, 8, 10};
 
     int arr[5];
@@ -92,11 +90,27 @@ int main()
     {
        arr[i] = num[i];
     }
-    
+
     for(int i : arr)
     {
         std::cout << i << " ";
     }
+
+    */
     
+    const int size = 5;
+    int num[size] = {2, 4, 6, 8, 10};
+
+    int i = 0;
+    float sum = 0.0f; 
+    while (i < size)
+    {
+        sum += num[i];
+        i++;
+    }
+
+    float average = sum / size;
+    std::cout << "The average is: " << average << std::endl;
+
     return 0;
 }
