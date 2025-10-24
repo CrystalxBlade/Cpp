@@ -83,6 +83,20 @@ int main()
     }
 
     */
+
+    int num[5] = {2, 4, 6, 8, 10};
+
+    int arr[5];
+
+    for(int i = 0; i < 5; i++)
+    {
+       arr[i] = num[i];
+    }
+    
+    for(int i : arr)
+    {
+        std::cout << i << " ";
+    }
     
     return 0;
 }
