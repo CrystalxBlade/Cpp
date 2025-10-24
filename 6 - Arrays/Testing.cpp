@@ -63,8 +63,6 @@ int main()
         }
     }
 
-    */
-
     int num[5] = {6, 7, 8, 9, 10};
 
     int start = 0, end = 4;
@@ -83,6 +81,8 @@ int main()
     {
         std::cout << num[i] << " ";
     }
+
+    */
     
     return 0;
 }

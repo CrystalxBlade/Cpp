@@ -74,30 +74,25 @@ int main()
 
     Q4.
     -------------------------------->
-    
-    const int size = 10;
-    int num[size] = {7, 2, 11, 4, 8, 6, 9, 8, 14, 10};
 
-    for(int i = 0; i < size; i++)
+    int num[10] = {8, 2, 5, 9, 23, 47, 36, 11, 51, 82};
+
+    int odd = 0, even = 0;
+
+    for(int i = 0; i < 10; i++)
     {
-        if(num[i] % 2 == 0)
+        if (num[i] % 2 == 0)
         {
-            std::cout << num[i] << " ";
+            even++;
+        }
+        else if (num[i] % 2 == 1)
+        {
+            odd++;   
         }
     }
 
-    ----------- and -----------
-    
-    const int size = 10;
-    int num[size] = {7, 2, 11, 4, 8, 6, 9, 8, 14, 10};
-
-    for(int i = 0; i < size; i++)
-    {
-        if(num[i] % 2 == 1)
-        {
-            std::cout << num[i] << " ";
-        }
-    }
+    std::cout << "Even: " << even << std::endl;
+    std::cout << "Odd: " << odd;
 
     */
 
