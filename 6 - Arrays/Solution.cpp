@@ -155,21 +155,34 @@ int main()
 
     Q8.
     -------------------------------->
+    */
 
     const int size = 10;
     int num[size] = {12, 65, 88, 27, 51, 38, 69, 45, 74, 96};
     int x = 69;
+    int index = -1;
+    bool flag = false;
 
     for(int i = 0; i < size; i++)
     {
         if (num[i] == x)
         {
-            std::cout << "Value found " << x << " at index: " << i;
+            flag = true;
+            index = i;
             break;
         }
     }
+    if (flag == true)
+    {
+        std::cout << "Value found " << x << " at index: " << index;
+    }
+    else
+    {
+        std::cout << "Value not found ";
+    }
+    
 
-    */
+    
 
     return 0;
 }
