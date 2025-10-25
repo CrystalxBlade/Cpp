@@ -155,7 +155,6 @@ int main()
 
     Q8.
     -------------------------------->
-    */
 
     const int size = 10;
     int num[size] = {12, 65, 88, 27, 51, 38, 69, 45, 74, 96};
@@ -180,9 +179,22 @@ int main()
     {
         std::cout << "Value not found ";
     }
-    
 
-    
+    */
 
+    const int size = 10;
+    int num[size] = {12, 65, 8, 27, 51, 38, 69, 8, 74, 8};
+    
+    int x = 8, count = 0;
+
+    for(int i = 0; i < 10; i++)
+    {
+        if(num[i] == x)
+        {
+            count++;
+        }
+    }
+
+    std::cout << "The element " << x << " appears " << count << " times." << std::endl;
     return 0;
 }
