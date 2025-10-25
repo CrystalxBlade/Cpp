@@ -152,7 +152,9 @@ int main()
 
     float average = sum / size;
     std::cout << "The average is: " << average << std::endl;
-    */
+
+    Q8.
+    -------------------------------->
 
     const int size = 10;
     int num[size] = {12, 65, 88, 27, 51, 38, 69, 45, 74, 96};
@@ -166,6 +168,8 @@ int main()
             break;
         }
     }
+
+    */
 
     return 0;
 }
