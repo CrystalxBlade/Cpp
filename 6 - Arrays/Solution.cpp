@@ -180,7 +180,8 @@ int main()
         std::cout << "Value not found ";
     }
 
-    */
+    Q9.
+    -------------------------------->
 
     const int size = 10;
     int num[size] = {12, 65, 8, 27, 51, 38, 69, 8, 74, 8};
@@ -197,4 +198,16 @@ int main()
 
     std::cout << "The element " << x << " appears " << count << " times." << std::endl;
     return 0;
+
+    Q10.
+    -------------------------------->
+    */
+
+    const int size = 10;
+    int num[size] = {2, 5, -3, 8, -12, 37, 69, -57, 45, -9};
+
+    for(int i : num)
+    {
+        std::cout << i << " ";
+    }
 }
