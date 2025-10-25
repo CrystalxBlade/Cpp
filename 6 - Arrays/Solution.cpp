@@ -188,7 +188,7 @@ int main()
     
     int x = 8, count = 0;
 
-    for(int i = 0; i < 10; i++)
+    for(int i = 0; i < size; i++)
     {
         if(num[i] == x)
         {
@@ -206,6 +206,13 @@ int main()
     const int size = 10;
     int num[size] = {2, 5, -3, 8, -12, 37, 69, -57, 45, -9};
 
+    for(int i = 0; i < size; i++)
+    {
+        if(num[i] < 0)
+        {
+            num[i] = 0;
+        }
+    }
     for(int i : num)
     {
         std::cout << i << " ";
