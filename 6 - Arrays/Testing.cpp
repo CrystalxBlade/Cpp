@@ -95,8 +95,6 @@ int main()
     {
         std::cout << i << " ";
     }
-
-    */
     
     const int size = 5;
     int num[size] = {2, 4, 6, 8, 10};
@@ -112,5 +110,6 @@ int main()
     float average = sum / size;
     std::cout << "The average is: " << average << std::endl;
 
+    */
     return 0;
 }
