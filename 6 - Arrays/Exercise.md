@@ -1,121 +1,121 @@
-# 🟢 1D Array – Basics (Level 1)
+## 🟢 1D Array – Basics (Level 1)
 
-## 1. Input and print all elements of an array.
+### 1. Input and print all elements of an array.
 
-## 2. Find the sum of all array elements.
+### 2. Find the sum of all array elements.
 
-## 3. Find the maximum and minimum elements.
+### 3. Find the maximum and minimum elements.
 
-## 4. Count even and odd numbers in the array.
+### 4. Count even and odd numbers in the array.
 
 ### 5. Reverse the array elements.
 
-6. Copy one array into another array.
+### 6. Copy one array into another array.
 
-7. Find the average of array elements.
+### 7. Find the average of array elements.
 
-8. Search for an element (linear search).
+### 8. Search for an element (linear search).
 
-9. Count occurrences of a given element.
+### 9. Count occurrences of a given element.
 
-10. Replace all negative numbers with 0.
+### 10. Replace all negative numbers with 0.
 
-🟡 1D Array – Intermediate (Level 2)
+## 🟡 1D Array – Intermediate (Level 2)
 
-11. Sort an array (Bubble Sort / Selection Sort / Insertion Sort).
+### 11. Sort an array (Bubble Sort / Selection Sort / Insertion Sort).
 
-12. Find the 2nd largest and 2nd smallest element.
+### 12. Find the 2nd largest and 2nd smallest element.
 
-13. Find the frequency of each element in an array.
+### 13. Find the frequency of each element in an array.
 
-14. Remove duplicates from a sorted array.
+### 14. Remove duplicates from a sorted array.
 
-15. Merge two arrays into one.
+### 15. Merge two arrays into one.
 
-16. Separate even and odd numbers into two arrays.
+### 16. Separate even and odd numbers into two arrays.
 
-17. Shift (rotate) elements left or right by k positions.
+### 17. Shift (rotate) elements left or right by k positions.
 
-18. Find the sum of elements at even and odd indices separately.
+### 18. Find the sum of elements at even and odd indices separately.
 
-19. Count positive, negative, and zero elements.
+### 19. Count positive, negative, and zero elements.
 
-20. Find the difference between the largest and smallest element.
+### 20. Find the difference between the largest and smallest element.
 
-🟠 1D Array – Advanced (Level 3)
+## 🟠 1D Array – Advanced (Level 3)
 
-21. Find missing number in a consecutive array (1–n).
+### 21. Find missing number in a consecutive array (1–n).
 
-22. Find all pairs with a given sum.
+### 22. Find all pairs with a given sum.
 
-23. Find the subarray with the largest sum (Kadane’s Algorithm – intro).
+### 23. Find the subarray with the largest sum (Kadane’s Algorithm – intro).
 
-24. Check if the array is sorted.
+### 24. Check if the array is sorted.
 
-25. Find common elements between two arrays.
+### 25. Find common elements between two arrays.
 
-26. Move all zeroes to the end of the array.
+### 26. Move all zeroes to the end of the array.
 
-27. Find product of all elements except the current index.
+### 27. Find product of all elements except the current index.
 
-28. Count how many numbers are greater than average.
+### 28. Count how many numbers are greater than average.
 
-29. Rearrange array in alternating positive and negative numbers.
+### 29. Rearrange array in alternating positive and negative numbers.
 
-30. Print frequency of digits in an array of numbers.
+### 30. Print frequency of digits in an array of numbers.
 
-🔵 2D Array – Basics (Level 1)
+## 🔵 2D Array – Basics (Level 1)
 
-31. Input and print elements of a 2D array (matrix).
+### 31. Input and print elements of a 2D array (matrix).
 
-32. Find sum of all elements in a matrix.
+### 32. Find sum of all elements in a matrix.
 
-33. Find sum of each row and each column.
+### 33. Find sum of each row and each column.
 
-34. Print the main and secondary diagonals.
+### 34. Print the main and secondary diagonals.
 
-35. Find the transpose of a matrix.
+### 35. Find the transpose of a matrix.
 
-36. Count positive, negative, zero, even, and odd elements in a matrix.
+### 36. Count positive, negative, zero, even, and odd elements in a matrix.
 
-37. Search for an element in a matrix.
+### 37. Search for an element in a matrix.
 
-38. Print matrix in row-major and column-major order.
+### 38. Print matrix in row-major and column-major order.
 
-39. Print the boundary elements of a matrix.
+### 39. Print the boundary elements of a matrix.
 
-40. Check if a matrix is square or not.
+### 40. Check if a matrix is square or not.
 
-🔴 2D Array – Advanced (Level 2–3)
+## 🔴 2D Array – Advanced (Level 2–3)
 
-41. Add two matrices.
+### 41. Add two matrices.
 
-42. Subtract two matrices.
+### 42. Subtract two matrices.
 
-43. Multiply two matrices.
+### 43. Multiply two matrices.
 
-44. Find the upper and lower triangular matrix.
+### 44. Find the upper and lower triangular matrix.
 
-45. Check if a matrix is symmetric.
+### 45. Check if a matrix is symmetric.
 
-46. Rotate matrix 90°, 180°, 270°.
+### 46. Rotate matrix 90°, 180°, 270°.
 
-47. Find the maximum element in each row and column.
+### 47. Find the maximum element in each row and column.
 
-48. Print a matrix in spiral order.
+### 48. Print a matrix in spiral order.
 
-49. Find the sum of diagonal and boundary elements.
+### 49. Find the sum of diagonal and boundary elements.
 
-50. Convert a 2D array into a 1D array (flatten).
+### 50. Convert a 2D array into a 1D array (flatten).
 
-⚫ Extra (Multidimensional & Mixed Concepts)
+## ⚫ Extra (Multidimensional & Mixed Concepts)
 
-51. Work with a 3D array: input and display values.
+### 51. Work with a 3D array: input and display values.
 
-52. Find the total sum of a 3D array.
+### 52. Find the total sum of a 3D array.
 
-53. Store and display marks of students in multiple subjects (2D array practical).
+### 53. Store and display marks of students in multiple subjects (2D array practical).
 
-54. Print Pascal’s Triangle (uses 2D logic).
+### 54. Print Pascal’s Triangle (uses 2D logic).
 
-55. Implement matrix exponentiation (for power of matrix).
+### 55. Implement matrix exponentiation (for power of matrix).
