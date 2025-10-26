@@ -1,6 +1,6 @@
-Calculate the area of a circle (π × r²).
-Calculate the surface area of a cube (6 × a²).
-Calculate the volume of a cube (a³).
+1. Calculate the area of a circle (π × r²).
+2. Calculate the surface area of a cube (6 × a²).
+3. Calculate the volume of a cube (a³).
 Calculate the surface area of a sphere (4 × π × r²).
 Calculate the volume of a sphere (4/3 × π × r³).
 Calculate the surface area of a cylinder (2 × π × r × (h + r)).
