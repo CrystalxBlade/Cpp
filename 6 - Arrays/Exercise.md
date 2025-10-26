@@ -1,4 +1,4 @@
-#🟢 1D Array – Basics (Level 1)
+# 🟢 1D Array – Basics (Level 1)
 
 ## 1. Input and print all elements of an array.
 
