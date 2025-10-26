@@ -1,14 +1,14 @@
-🟢 1D Array – Basics (Level 1)
+#🟢 1D Array – Basics (Level 1)
 
-# 1. Input and print all elements of an array.
+## 1. Input and print all elements of an array.
 
-# 2. Find the sum of all array elements.
+## 2. Find the sum of all array elements.
 
-# 3. Find the maximum and minimum elements.
+## 3. Find the maximum and minimum elements.
 
-# 4. Count even and odd numbers in the array.
+## 4. Count even and odd numbers in the array.
 
-5. Reverse the array elements.
+## 5. Reverse the array elements.
 
 6. Copy one array into another array.
 
