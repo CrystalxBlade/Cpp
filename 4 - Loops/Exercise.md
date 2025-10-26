@@ -17,8 +17,8 @@
 ### 17. Write a program to display multiplication tables vertically from 1 to n.
 ### 18. Take a, n, d from user and print Arithmetic Progression (A.P).
 ### 19. Take a number and count:  -its length
-                          -sum of odd and even digits
-then use those two sums as first and second Fibonacci terms → print Fibonacci till n terms.
+###                          -sum of odd and even digits
+### then use those two sums as first and second Fibonacci terms → print Fibonacci till n terms.
 
 ### 20. Write a program to find the greatest common divisor (GCD) of two numbers.
 ### 21. Implement prime factorization of a number (print prime factors with exponents).
