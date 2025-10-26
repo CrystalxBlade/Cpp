@@ -8,7 +8,7 @@
 
 ## 4. Count even and odd numbers in the array.
 
-## 5. Reverse the array elements.
+### 5. Reverse the array elements.
 
 6. Copy one array into another array.
 
