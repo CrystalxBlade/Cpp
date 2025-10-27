@@ -234,12 +234,20 @@
         }
     }
 
-    
+    void printArray(int arr[], int n)
+    {
+        for(int i = 0; i < n; i++)
+        {
+            std::cout << arr[i] << " ";
+        }
+    }
 
     int main()
     {
         int n = 5;
         int arr[] = {4, 1, 5, 2, 3};
 
+        bubbleSort(arr, n);
+        printArray(arr, n);
         return 0;
     }
