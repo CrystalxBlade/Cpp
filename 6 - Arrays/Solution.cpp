@@ -228,11 +228,13 @@
             {
                 if(arr[j] > arr[j + 1])
                 {
-                    std::swap()
+                    std::swap(arr[j], arr[j+1]);
                 }
             }
         }
     }
+
+    
 
     int main()
     {
