@@ -111,5 +111,7 @@ int main()
     std::cout << "The average is: " << average << std::endl;
 
     */
+
+    int arr[] = {10, 2, 9, 3, 7, 4, 6, 5, 1, 8};
     return 0;
 }
