@@ -113,5 +113,17 @@ int main()
     */
 
     int arr[] = {10, 2, 9, 3, 7, 4, 6, 5, 1, 8};
+    int size = sizeof(arr) / sizeof(arr[0]);
+
+    for(int element : arr)
+    {
+        std::cout << element << " ";
+    }
+
     return 0;
+}
+
+void sort(int arr[], int size)
+{
+        
 }
