@@ -23,17 +23,3 @@ int main()
 
 */
 
-void countDown(int n)
-{
-    if (n > 0)
-    {
-        std::cout << "Boom" << std::endl;
-        return;
-    }
-}
-
-int main()
-{
-    countDown(5);
-    return 0;    
-}
