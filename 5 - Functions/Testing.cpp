@@ -1,5 +1,8 @@
 #include <iostream>
 
+
+/*
+
 int Sum(int num)
 {
     int rem, sum = 0;
@@ -17,3 +20,6 @@ int main()
     std::cout << "Sum of all digits is: " << Sum(145) << std::endl;
     return 0;
 }
+
+*/
+

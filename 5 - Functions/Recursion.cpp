@@ -44,6 +44,7 @@ int main()
 }
 
 */
+
 void walk(int steps)
 {
     if(steps > 0)
