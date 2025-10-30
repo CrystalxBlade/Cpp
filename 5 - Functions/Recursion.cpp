@@ -2,7 +2,6 @@
 
 
 /*
-
 void countdown(int n)
 {
     if (n == 0)
@@ -21,8 +20,6 @@ int main()
     countdown(5);
     return 0;
 }
-
-*/
 
 /*
 
@@ -43,7 +40,7 @@ int main()
     return 0;
 }
 
-*/
+
 
 void walk(int steps)
 {
@@ -59,3 +56,5 @@ int main()
     walk(100);
     return 0;
 }
+
+*/
