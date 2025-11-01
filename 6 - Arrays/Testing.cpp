@@ -146,10 +146,28 @@ void sort(int arr[], int size)
 
 */
 
+void sort(int num[], int size)
+{
+    for(int i = 0; i < size - 1; i++)
+    {
+        for(int j = 0; j < size - 1 - i; j++)
+        {
+            if(num[j] > num[j + 1])
+            {
+                int temp = num[j + 1];
+                num[j + 1] = num[j];
+                num[j] = temp;
+            }
+        }
+    }
+}
+
 int main()
 {
     int num[] = {5, 1, 4, 2, 3};
     int size = sizeof(num) / sizeof(num[0]);
+
+    sort(num, size);
 
     for(int i : num)
     {
