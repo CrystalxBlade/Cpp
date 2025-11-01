@@ -146,3 +146,15 @@ void sort(int arr[], int size)
 
 */
 
+int main()
+{
+    int num[] = {5, 1, 4, 2, 3};
+    int size = sizeof(num) / sizeof(num[0]);
+
+    for(int i : num)
+    {
+        std::cout << i << " ";
+    }
+
+    return 0;
+}
