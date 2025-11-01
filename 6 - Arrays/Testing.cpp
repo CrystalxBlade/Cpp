@@ -108,7 +108,7 @@
     float average = sum / size;
     std::cout << "The average is: " << average << std::endl;
 
-    */
+    
 
 void sort(int arr[], int size);
 
@@ -143,3 +143,6 @@ void sort(int arr[], int size)
         }
     }
 }
+
+*/
+
