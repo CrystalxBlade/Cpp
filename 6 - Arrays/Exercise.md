@@ -119,3 +119,13 @@
 ### 54. Print Pascal’s Triangle (uses 2D logic).
 
 ### 55. Implement matrix exponentiation (for power of matrix).
+
+### 56 Insert an element at a given position in an array.
+
+### 57 Delete an element from a given position in an array.
+
+### 58 Insert an element in a sorted array (keep it sorted).
+
+### 59 Delete a specific element by value (not index).
+
+### 60 Merge two sorted arrays into one sorted array.
