@@ -109,7 +109,7 @@
     std::cout << "The average is: " << average << std::endl;
 
     
-
+*/
 void sort(int arr[], int size);
 
 int main()
@@ -144,4 +144,4 @@ void sort(int arr[], int size)
     }
 }
 
-*/
+
