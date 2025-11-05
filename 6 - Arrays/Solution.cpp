@@ -219,7 +219,7 @@
     -------------------------------->
 
    //  Bubble Sort
-
+*/
 int main()
 {
 
@@ -244,10 +244,12 @@ int main()
         std::cout << i << " ";
     }
 
+    std::cout << "Value of n is = " << n;
+
     return 0;
 }    
 
     //  Selection Sort
 
-*/
+
 
