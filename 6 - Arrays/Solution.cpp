@@ -274,7 +274,8 @@ int main()
     int arr[] = {4, 1, 5, 2, 3};
     int n = sizeof(arr) / sizeof(arr[0]);
 
-    
+
+    selection(arr, n);
     for(int i : arr)
     {
         std::cout << i << " ";
