@@ -248,7 +248,39 @@ int main()
 }    
 
     //  Selection Sort
-    
+
 */
+
+void selection(int arr[], int n)
+{
+    for(int i = 0; i < n - 1; i++)
+    {
+        int sm = i;
+
+        for(int j = i+1; j < n; j++)
+        {
+            if(arr[j] < arr[sm])
+            {
+                sm = j;
+            }
+        }
+
+        std::swap(arr[i], arr[sm]);
+    }
+}
+
+int main()
+{
+    int arr[] = {4, 1, 5, 2, 3};
+    int n = sizeof(arr) / sizeof(arr[0]);
+
+    
+    for(int i : arr)
+    {
+        std::cout << i << " ";
+    }
+
+    return 0;
+}
 
 
