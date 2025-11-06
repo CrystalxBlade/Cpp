@@ -176,12 +176,24 @@ int main()
 }
 
 */
+void bubble(int arr[], int n);
 
 int main()
 {
     int arr[] = {5, 2, 4, 1, 3};
     int n = sizeof(arr) / sizeof(arr[0]);
 
+    bubble(arr, n);
+    for(int i : arr)
+    {
+        std::cout << i << " ";
+    }
+
+    return 0;
+}
+
+void bubble(int arr[], int n)
+{
     for(int i = 0; i < n - 1; i++)
     {
         int sm = i;
@@ -195,11 +207,4 @@ int main()
         }
         std::swap(arr[i], arr[sm]);
     }
-
-    for(int i : arr)
-    {
-        std::cout << i << " ";
-    }
-
-    return 0;
 }
