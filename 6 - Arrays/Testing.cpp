@@ -143,7 +143,6 @@ void sort(int arr[], int size)
         }
     }
 }
-*/
 
 void Select(int arr[], int n)
 {
@@ -168,6 +167,21 @@ int main()
     int n = sizeof(arr) / sizeof(arr[0]);
 
     Select(arr, n);
+    for(int i : arr)
+    {
+        std::cout << i << " ";
+    }
+
+    return 0;
+}
+
+*/
+
+int main()
+{
+    int arr[] = {5, 1, 4, 2, 3};
+    int n = sizeof(arr)/sizeof(arr[0]);
+
     for(int i : arr)
     {
         std::cout << i << " ";
