@@ -175,7 +175,7 @@ int main()
     return 0;
 }
 
-*/
+
 void bubble(int arr[], int n);
 
 int main()
@@ -208,3 +208,4 @@ void bubble(int arr[], int n)
         std::swap(arr[i], arr[sm]);
     }
 }
+*/
