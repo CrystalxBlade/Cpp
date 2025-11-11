@@ -216,11 +216,30 @@ int main()
 
     int n = sizeof(arr) / sizeof(arr[0]);
 
-    int la = 0, sl = 0;
+    int la, sl;
 
-    for(int i = 1; i < n; i++)
+    if(arr[0] > arr[1])
     {
-        
+        la = arr[0];
+        sl = arr[1];
+    }
+    else
+    {
+        la = arr[1];
+        sl = arr[0];
+    }
+
+    for(int i = 2; i < n; i++)
+    {
+        if (arr[i] > la)
+        {
+            sl =  la;
+            la = arr[i];
+        }
+        else if (arr[i] < la && arr[i] > sl)
+        {
+            sl = arr[i];
+        }
     }
 
     std::cout << "Largest: " << la << "\n" << "Smallest: " << sl;
