@@ -209,3 +209,17 @@ void bubble(int arr[], int n)
     }
 }
 */
+
+int main()
+{
+    int arr[] = {1, 3, 4, 5, 2};
+
+    int n = sizeof(arr) / sizeof(arr[0]);
+
+    int l = 0, sl = 0;
+
+    for(int i = 0; i < n; i++)
+    {
+        
+    }
+}
