@@ -216,10 +216,13 @@ int main()
 
     int n = sizeof(arr) / sizeof(arr[0]);
 
-    int l = 0, sl = 0;
+    int la = 0, sl = 0;
 
-    for(int i = 0; i < n; i++)
+    for(int i = 1; i < n; i++)
     {
         
     }
+
+    std::cout << "Largest: " << la << "\n" << "Smallest: " << sl;
+    return 0;
 }
