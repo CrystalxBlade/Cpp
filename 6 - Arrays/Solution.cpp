@@ -281,9 +281,7 @@ int main()
 
     return 0;
 }
-
-*/
-
+    
    // Insertion Sort
 
 void InsertionSort(int arr[], int n)
@@ -316,3 +314,5 @@ int main()
     }
     return 0;
 }
+
+*/
