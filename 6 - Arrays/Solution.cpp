@@ -315,11 +315,9 @@ int main()
     return 0;
 }
 
-*/
-
 int main()
 {
-    int arr[] = {2, 3, 5, 1, 4};
+    int arr[] = {12, 3, 5, 11, 4};
     int n =  sizeof(arr) / sizeof(arr[0]);
 
     int la, sl;
@@ -350,3 +348,5 @@ int main()
     std::cout << "Largest: " << la <<" \n" "Second largest: " << sl;
     return 0;
 }
+
+*/
