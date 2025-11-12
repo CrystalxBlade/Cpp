@@ -350,3 +350,39 @@ int main()
 }
 
 */
+
+int main()
+{
+    int arr[] = {5, 2, 1, 4, 3};
+    int n = sizeof(arr) / sizeof(arr[0]);
+
+    int s, sm;
+
+    if (arr[0] < arr[1])
+    {
+        s = arr[0];
+        sm = arr[1];
+    }
+    else
+    {
+        s =  arr[1];
+        sm = arr[0];
+    }
+
+    for(int i = 2; i < n; i++)
+    {
+        if (s > arr[i])
+        {
+            sm = s;
+            s = arr[i];
+        }
+        else if (sm > arr[i] && sm != arr[i])
+        {
+            sm = arr[i];
+        }
+    }
+
+    std::cout << "Smallest: " << s << "\n" "Second smallest: " << sm; 
+    
+    return 0;
+}
