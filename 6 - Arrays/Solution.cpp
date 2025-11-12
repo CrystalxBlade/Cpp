@@ -316,3 +316,37 @@ int main()
 }
 
 */
+
+int main()
+{
+    int arr[] = {2, 3, 5, 1, 4};
+    int n =  sizeof(arr) / sizeof(arr[0]);
+
+    int la, sl;
+
+    if (arr[0] > arr[1])
+    {
+        la = arr[0];
+        sl = arr[1];
+    }
+    else
+    {
+        la = arr[1];
+        sl = arr[0];
+    }
+    
+    for(int i = 2; i < n; i++)
+    {
+        if (la < arr[i])
+        {
+            la = arr[i];
+        }
+        else if (la > arr[i] && sl < arr[i])
+        {
+            sl = arr[i];
+        }
+    }
+
+    std::cout << "Largest: " << la <<" \n" "Second largest: " << sl;
+    return 0;
+}
