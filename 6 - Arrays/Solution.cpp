@@ -315,6 +315,11 @@ int main()
     return 0;
 }
 
+    Q12.
+    -------------------------------->
+    
+   //  Second largest
+
 int main()
 {
     int arr[] = {12, 3, 5, 11, 4};
@@ -349,7 +354,7 @@ int main()
     return 0;
 }
 
-*/
+   // Second smallest
 
 int main()
 {
@@ -386,3 +391,5 @@ int main()
     
     return 0;
 }
+
+*/
