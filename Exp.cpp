@@ -1,25 +1,35 @@
 #include <iostream>
 
-void CountDown(int n)
-{
-    if(n == 0)
-    {
-        std::cout << " Booooooom ";
-        return;
-    }
-
-    std::cout << "tick tick " << n <<std::endl;
-    CountDown(n-1);
-}
 
 int main()
 {
+    int arr[] = {6, 12, 29, 77, 56, 6, 29, 56, 9, 6};
+    int n = sizeof(arr) / sizeof(arr[0]);
 
-    int n;
-    std::cout << "Enter a value to start countDown: ";
-    std::cin >> n;
+    bool visited[n] = {false};
 
-    CountDown(n);
+    std::cout << "Frequency of each element \n";
+
+    for(int i = 0; i < n; i++)
+    {
+        if (visited[i])
+        {
+            continue;
+        }
+        
+        int count = 1;
+
+        for(int j = i + 1; j < n; j++)
+        {
+            if(arr[j] == arr[i])
+            {
+                count++;
+                visited[j] = true;
+            }
+        }
+        
+        std::cout << arr[i] << " - " << count << " times \n";
+    }
 
     return 0;
 }
