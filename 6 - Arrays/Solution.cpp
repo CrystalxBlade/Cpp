@@ -393,3 +393,16 @@ int main()
 }
 
 */
+
+int main()
+{
+    int arr[] = {6, 12, 29, 77, 56, 6, 29, 56, 9, 6};
+    int n = sizeof(arr) / sizeof(arr[0]);
+
+    bool visited[n] = {false};
+
+    for(int i = 0; i < n; i++)
+    {
+        
+    }
+}
