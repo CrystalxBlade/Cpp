@@ -35,3 +35,23 @@ int main()
 
 */
 
+int main()
+{
+    int arr[] = {6, 5, 1, 8, 6, 1, 8, 9};
+    int n = sizeof(arr) / sizeof(arr[0]);
+
+    bool visited[n] = {false}; 
+
+    for(int i = 0; i < n; i++)
+    {
+        if (visited[i])
+        {
+            
+        }
+        
+    }
+
+
+
+    return 0;
+}
