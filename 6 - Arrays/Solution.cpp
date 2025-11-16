@@ -426,7 +426,36 @@ int main()
     return 0;
 }
 
+    Q14.
+    -------------------------------->
+
 */
+
+int main()
+{
+    int arr[] = {1, 1, 1, 2, 2, 3, 4, 4, 5};
+    int n = sizeof(arr) / sizeof(arr[0]);
+    
+    int j = 0;
+    for(int i = 1; i < n; i++)
+    {
+        if (arr[j] != arr[i])
+        {
+            j++;
+            arr[j] = arr[i];
+        }
+
+    }
+
+    int newSize = j + 1;
+
+    for(int i = 0; i < newSize; i++)
+    {
+        std::cout << arr[i] << " ";
+    }
+
+    return 0;
+}
 
 
 
