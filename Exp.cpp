@@ -37,20 +37,21 @@ int main()
 
 int main()
 {
-    int arr[] = {6, 5, 1, 8, 6, 1, 8, 9};
+    int arr[] = {1, 1, 1, 2, 2, 3, 4, 4};
     int n = sizeof(arr) / sizeof(arr[0]);
 
-    bool visited[n] = {false}; 
-
-    for(int i = 0; i < n; i++)
+    int j = 0;
+    for(int i = 1; i < n; i++)
     {
-        if (visited[i])
+        if (arr[j] != arr[i])
         {
-            
+            j++;
+            arr[j] = arr[i];
         }
         
     }
-
+    for(int i : arr)
+    std::cout << i << " ";
 
 
     return 0;
