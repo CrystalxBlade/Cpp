@@ -471,4 +471,16 @@ int main()
     {
         C[i] = A[i];
     }
+
+    for(int i = 0; i < n2; i++)
+    {
+        C[n1 + i] = B[i];
+    }
+
+    for(int x : C)
+    {
+        std::cout << x << " ";
+    }
+
+    return 0;
 }
