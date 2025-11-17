@@ -459,5 +459,16 @@ int main()
 
 int main()
 {
-    
+    int A[] = {1, 2, 3};
+    int B[] = {4, 5, 6};
+
+    int n1 = sizeof(A) /  sizeof(A[0]);
+    int n2 = sizeof(B) /  sizeof(B[0]);
+
+    int C[n1 + n2];
+
+    for(int i = 0; i < n1; i++)
+    {
+        C[i] = A[i];
+    }
 }
