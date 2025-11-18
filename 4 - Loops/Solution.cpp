@@ -289,7 +289,7 @@ int main()
 
     Q14.
     -------------------------------->
-    
+
     int n = 145, fact = 1, res = 0, rem = 0, q = n;
 
     while (q != 0)
@@ -314,8 +314,33 @@ int main()
     }
     
     return 0;
-
-   
 } 
 
  */
+
+ int prime(int n)
+ {
+    for(int i = 2; i * i<= n; i++)
+    {
+        if(n % i == 0)
+        {
+            return 0;
+        }
+    }
+
+    return 1;
+ }
+ int main()
+ {
+    int n1 = 2, n2 = 40;
+
+    for(int i = n1; i <= n2; i++)
+    {
+        if (prime(i))
+        {
+            std::cout << i << "\n";
+        }
+    }
+
+    return 0;
+ }
