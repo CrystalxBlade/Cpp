@@ -315,9 +315,9 @@ int main()
     
     return 0;
 } 
-
- */
-
+    Q15.
+    -------------------------------->
+    
  int prime(int n)
  {
     for(int i = 2; i * i<= n; i++)
@@ -344,3 +344,5 @@ int main()
 
     return 0;
  }
+
+*/
