@@ -289,8 +289,17 @@ int main()
 
     */
 
-    int q = 145, fact = 0, res = 0;
-  
+    int q = 145, fact = 0, res = 0, rem = 0;
+
+    while (q != 0)
+    {
+        rem = q % 10;
+        for(int i = 1; i < rem; i++)
+        {
+            fact = fact * i;
+        }
+        
+    }
     
     return 0;
 } 
