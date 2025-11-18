@@ -288,6 +288,8 @@ int main()
     }
 
     */
+
+    int q = 145, fact = 0, res = 0;
   
     
     return 0;
