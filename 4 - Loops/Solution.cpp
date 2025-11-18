@@ -289,16 +289,27 @@ int main()
 
     */
 
-    int q = 145, fact = 0, res = 0, rem = 0;
+    int n = 145, fact = 1, res = 0, rem = 0, q = n;
 
     while (q != 0)
     {
         rem = q % 10;
-        for(int i = 1; i < rem; i++)
+        for(int i = 1; i <= rem; i++)
         {
             fact = fact * i;
         }
-        
+        res = res + fact;
+        fact = 1;
+        q = q/10;
+    }
+    
+    if (n == res)
+    {
+        std::cout << res <<" is strong number ";
+    }
+    else
+    {
+        std::cout << res << " not a strong number";
     }
     
     return 0;
