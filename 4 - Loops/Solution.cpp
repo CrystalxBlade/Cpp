@@ -395,19 +395,19 @@ int main()
 int main() {
     int a, n, d;
     
-    cout << "Enter first term (a): ";
-    cin >> a;
+    std::cout << "Enter first term (a): ";
+    std::cin >> a;
     
-    cout << "Enter number of terms (n): ";
-    cin >> n;
+    std::cout << "Enter number of terms (n): ";
+    std::cin >> n;
     
-    cout << "Enter common difference (d): ";
-    cin >> d;
+    std::cout << "Enter common difference (d): ";
+    std::cin >> d;
 
-    cout << "\nArithmetic Progression: ";
+    std::cout << "\nArithmetic Progression: ";
 
     for(int i = 0; i < n; i++) {
-        cout << a + i * d << " ";
+        std::cout << a + i * d << " ";
     }
 
     return 0;
