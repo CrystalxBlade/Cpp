@@ -392,3 +392,24 @@ int main()
 
 */
 
+int main() {
+    int a, n, d;
+    
+    cout << "Enter first term (a): ";
+    cin >> a;
+    
+    cout << "Enter number of terms (n): ";
+    cin >> n;
+    
+    cout << "Enter common difference (d): ";
+    cin >> d;
+
+    cout << "\nArithmetic Progression: ";
+
+    for(int i = 0; i < n; i++) {
+        cout << a + i * d << " ";
+    }
+
+    return 0;
+}
+
