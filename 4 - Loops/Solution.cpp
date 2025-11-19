@@ -345,4 +345,24 @@ int main()
     return 0;
  }
 
+    Q16.
+    -------------------------------->
+
 */
+
+int main()
+{
+    int n;
+    std::cout << "Enter number of terms: ";
+    std::cin >> n;
+
+    for (int i = 1; i <= n; i++)
+    {
+        int cube = i * i * i;
+        std::cout << "Number is: " << i 
+                  << " and cube of " << i 
+                  << " is: " << cube << std::endl;
+    }
+
+    return 0;
+}
