@@ -366,3 +366,29 @@ int main()
 }
 
 */
+
+int main()
+{
+    int n;
+    std::cout << "Input up to the table number starting from 1: ";
+    std::cin >> n;
+
+    std::cout << "Multiplication table from 1 to " << n << std::endl;
+
+    // Rows: 1 to 10
+    for (int i = 1; i <= 10; i++)
+    {
+        // Columns: 1 to n
+        for (int j = 1; j <= n; j++)
+        {
+            std::cout << j << " x " << i << " = " << j * i;
+
+            if (j != n) 
+                std::cout << ", ";
+        }
+        std::cout << std::endl;
+    }
+
+    return 0;
+}
+
