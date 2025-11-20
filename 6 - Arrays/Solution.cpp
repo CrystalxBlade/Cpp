@@ -509,6 +509,17 @@ int main()
         }
     }
 
+    std::cout << "Even: ";
+    for(int i = 0; i < e; i++)
+    {
+        std::cout << even[i] << " ";
+    }
+    
+    std::cout << "Odd: ";
+    for(int i = 0; i < o; i++)
+    {
+        std::cout << odd[i] << " ";
+    }
     
     return 0;
 }
