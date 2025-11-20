@@ -245,5 +245,31 @@ int main()
     std::cout << "Largest: " << la << "\n" << "Smallest: " << sl;
     return 0;
 }
-    
+
 */
+
+void separate(int arr[], int n)
+{
+    int even = 0, odd = 0;
+
+    for (int i = 0; i < n; i++)
+    {
+        if (arr[i] % 2 == 0)
+        {
+            even = arr[i];    
+        }
+        else
+        {
+            odd = arr[i];
+        }
+    }
+}
+int main()
+{
+    int arr[] = {9, 6, 1, 2, 3, 6, 5, 8};
+    int n = sizeof(arr) / sizeof(arr[0]);
+
+    separate(arr, n);
+
+    return 0;
+}
