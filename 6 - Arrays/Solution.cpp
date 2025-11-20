@@ -490,5 +490,25 @@ int main()
 
 int main()
 {
+    int arr[] = {4, 7, 12, 9, 6, 3, 10, 8};
+    int n = sizeof(arr) / sizeof(arr[0]);
+
+    int even[n], odd[n], e = 0, o = 0;
+
+    for(int i = 0; i < n; i++)
+    {
+        if (arr[i] % 2 == 0)
+        {
+            even[e] = arr[i];
+            e++;
+        }
+        else
+        {
+            odd[o] = arr[i];
+            o++;
+        }
+    }
+
     
+    return 0;
 }
