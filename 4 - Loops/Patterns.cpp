@@ -58,7 +58,7 @@ int main()
     }
 
     5. Triangle (1 to i)
-    
+
     for(int i = 1; i <= 4; i++)
     {
         for(int j = 1; j <= i; j++)
@@ -68,7 +68,7 @@ int main()
         std::cout << "\n";
     }
 
-        Rverse Triangle
+    6. Reverse Counting Triangle
 
     for(int i = 1; i <= 4; i++)
     {
