@@ -6,7 +6,7 @@ int main()
     /*
 
     1. Alphabet Square
-    
+
     int n = 4;
 
     for(int i = 0; i < n; i++)
@@ -21,7 +21,7 @@ int main()
         std::cout << "\n";
     }
 
-          Square 
+    2. Number Square
 
     int n = 4, num = 1;
    
