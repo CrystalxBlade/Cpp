@@ -79,7 +79,7 @@ int main()
         std::cout << "\n";
     }
 
-       Floyd's Triangle
+    7. Floyd's Triangle
     
     int num = 0;
     
@@ -93,7 +93,7 @@ int main()
         std::cout << "\n";
     }
          
-       Inverted Triangle
+    8. Inverted Right-Aligned Triangle
 
     for(int i = 1; i <=4; i++)
     {
@@ -108,7 +108,7 @@ int main()
         std::cout << "\n";
     }
 
-        Pyramid
+    9. Full Palindromic Pyramid
 
      int n = 4;
 
