@@ -35,7 +35,8 @@ int main()
     return 0;
 }
 
-*/
+
+    // change value
 
 int main()
 {
@@ -44,4 +45,23 @@ int main()
     int pos = matrix[2][1] = 69;
 
     std::cout << pos;
+}
+
+*/
+
+int main()
+{
+    int matrix [4][3] = {{1,2,3}, {4,5,6}, {7,8,9}, {10,11,12}};
+
+    int row = 4, col = 3;
+
+    for(int i = 0; i < row; i++)
+    {
+        for(int j = 0; j < col; j++)
+        {
+            std::cout << matrix[i][j] << " ";
+        }
+        std::cout << "\n";
+    }
+    return 0;
 }
