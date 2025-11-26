@@ -1,5 +1,7 @@
 #include <iostream>
 
+/*
+
 int main()
 {
     int matrix [4][3];
@@ -31,4 +33,15 @@ int main()
         std::cout << "\n";
     }
     return 0;
+}
+
+*/
+
+int main()
+{
+    int matrix [4][3] = {{1,2,3}, {4,5,6}, {7,8,9}, {10,11,12}};
+
+    int pos = matrix[2][1] = 69;
+
+    std::cout << pos;
 }
