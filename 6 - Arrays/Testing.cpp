@@ -247,3 +247,30 @@ int main()
 }
 
 */
+
+int main()
+{
+    int matrix [3][3];
+
+    int m = 3;
+    int n = 3;
+
+
+    for(int i = 0; i < m; i++)
+    {
+        for(int j = 0; j < n; j++)
+        {
+            std::cin >> matrix[i][j];
+        }
+        std::cout << "\n";
+    }
+
+    for(int i = 0; i < m; i++)
+    {
+        for(int j = 0; j < n; j++)
+        {
+            std::cout << matrix[i][j] << " ";
+        }
+        std::cout << "\n";
+    }
+}
