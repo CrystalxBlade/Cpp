@@ -246,7 +246,7 @@ int main()
     return 0;
 }
 
-*/
+
 
 int main()
 {
@@ -273,4 +273,30 @@ int main()
         }
         std::cout << "\n";
     }
+}
+
+*/
+
+void printMatrix(int matrix[][3], int m, int n, int key)
+{
+    for(int i = 0; i < m; i++)
+    {
+        for(int j = 0; j < n; j++)
+        {
+            if (matrix[i][j] == key)
+            {
+                std::cout << "found " << key << " at " << matrix[i][j] << " ";
+            }
+        }
+        std::cout << "\n";
+    }
+}
+
+int main()
+{
+    int matrix[3][3] = {{1,2,3}, {4,5,6}, {7,8,9}};
+
+    int m = 3, n = 3, key = 6;
+
+    printMatrix(matrix, m, n, key);
 }
