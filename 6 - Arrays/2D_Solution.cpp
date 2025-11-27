@@ -61,11 +61,11 @@ int main()
     int m = sizeof(matrix) / sizeof(matrix[0]);
     int n = sizeof(matrix[0]) / sizeof(matrix[0][0]);
 
-    int rowSum = 0;
-    int colSum = 0;
 
     for(int i = 0; i < m; i++)
     {
+        int rowSum = 0;
+
         for(int j = 0; j < n; j++)
         {
             rowSum += matrix[i][j];
@@ -76,14 +76,15 @@ int main()
 
     std::cout << "------------------\n";
     
-    for(int i = 0; i < m; i++)
+    for(int j = 0; j < n; j++)
     {
-        for(int j = 0; j < n; j++)
+        int colSum = 0;
+
+        for(int i = 0; i < m; i++)
         {
             colSum += matrix[i][j];
-
-            std::cout << "colSum of : " << j <<  " - " << colSum << " \n";
         }
+        std::cout << "colSum of : " << j <<  " - " << colSum << " \n";
     }
 
     return 0;
