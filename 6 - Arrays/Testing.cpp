@@ -285,10 +285,9 @@ void printMatrix(int matrix[][3], int m, int n, int key)
         {
             if (matrix[i][j] == key)
             {
-                std::cout << "found " << key << " at " << matrix[i][j] << " ";
+                std::cout << "found " << key << " at (" << i << " , " <<  j << ")\n";
             }
         }
-        std::cout << "\n";
     }
 }
 
