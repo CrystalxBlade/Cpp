@@ -275,8 +275,6 @@ int main()
     }
 }
 
-
-
 void printMatrix(int matrix[][3], int m, int n, int key)
 {
     for(int i = 0; i < m; i++)
