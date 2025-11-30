@@ -275,7 +275,7 @@ int main()
     }
 }
 
-*/
+
 
 void printMatrix(int matrix[][3], int m, int n, int key)
 {
@@ -299,3 +299,5 @@ int main()
 
     printMatrix(matrix, m, n, key);
 }
+
+*/
