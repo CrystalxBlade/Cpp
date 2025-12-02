@@ -101,11 +101,7 @@ int main()
 
     for(int i = 0; i < m; i++)
     {
-        for(int j = 0; j < n; j++)
-        {
-            std::cout << matrix [i][j] << " ";
-        }
-        std::cout << "\n";
+        std::cout << matrix[i][i] << " ";
     }
 
     return 0;
