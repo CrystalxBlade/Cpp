@@ -134,3 +134,33 @@ int main()
     -------------------------------->
 
 */
+
+int main()
+{
+    int matrix[2][3] = {{1,2,3}, {4,5,6}};
+
+    int m = sizeof(matrix) / sizeof(matrix[0]);
+    int n = sizeof(matrix[0])/ sizeof(matrix[0][0]);
+
+    for(int i = 0; i < m; i++)
+    {
+        for(int j = 0; j < n; j++)
+        {
+            std::cout << matrix[i][j] << " ";
+        }
+        std::cout << "\n";
+    }
+
+    std::cout << " ------ Transpose ----- > \n";
+
+    for(int i = 0; i < n; i++)
+    {
+        for(int j = 0; j < m; j++)
+        {
+            std::cout << matrix[j][i] << " ";
+        }
+        std::cout<< "\n";
+    }
+
+    return 0;
+}
