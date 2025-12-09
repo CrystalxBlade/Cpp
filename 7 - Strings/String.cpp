@@ -2,11 +2,8 @@
 
 int main()
 {
-    std::string name;
-    std::string last = "Blade";
-    std::cin >> name;
-    std::getline(std::cin, name);
+    std::string name = "Blade";
     std::cout << name;
-    
+
     return 0;
 }
