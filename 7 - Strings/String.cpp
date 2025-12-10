@@ -31,7 +31,7 @@ int main()
 
     */
 
-    std::string name;
+    std::string name;             // cin reads a single word, not the full line.
     std::cout << "Enter name: ";
     std::cin >> name;
     std::cout << name;
