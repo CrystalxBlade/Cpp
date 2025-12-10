@@ -18,8 +18,11 @@ int main()
     name = "Crystal";
     std::cout << name;
 
-    char ch [] = {'R', 'O', 'C', 'K'}; // error no dynamic => runtime resize   
+    char ch [] = {'R', 'O', 'C', 'K'}; // error no dynamic => runtime resize it'll be constant   
     ch = {'L', 'O', 'L'};
+
+
+    // Input string
 
     std::string name;
     std::cout << "Enter your Name: ";
@@ -28,7 +31,10 @@ int main()
 
     */
 
+    std::string name;
+    std::cout << "Enter name: ";
+    std::cin >> name;
+    std::cout << name;
     
-
     return 0;
 }
