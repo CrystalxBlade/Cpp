@@ -14,6 +14,12 @@ int main()
     std::string name = "Blade";
     std::cout << name;
 
+    std::string s1 = "Crystalx";                // concatenation
+    std::string s2 = "Blade";
+    std::string s3 = s1 + s2;
+
+    std::cout << s3 << std::endl;
+
     std::string name = "Blade";                 // ✔️ dynamic => runtime resize
     name = "Crystal";
     std::cout << name;
@@ -37,6 +43,6 @@ int main()
     std::cout << name;
 
     */
-    
+
     return 0;
 }
