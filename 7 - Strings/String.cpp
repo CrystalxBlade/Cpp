@@ -4,37 +4,37 @@ int main()
 {
     /*
 
-    char ch [] = {'B', 'L', 'A', 'D', 'E' '\0'}; //the sequence of characters are called string
+    char ch [] = {'B', 'L', 'A', 'D', 'E' '\0'};  // ✔️ the sequence of characters are called string
     std::cout << ch;
 
-    char ch [] = {'B', 'L', 'A', 'D', 'E'}; // error There is NO null terminator \0. 
+    char ch [] = {'B', 'L', 'A', 'D', 'E'};      // ❌ error There is NO null terminator \0. 
     std::cout << ch;
 
 
     std::string name = "Blade";
     std::cout << name;
 
-    std::string name = "Blade"; // dynamic => runtime resize
+    std::string name = "Blade";                 // ✔️ dynamic => runtime resize
     name = "Crystal";
     std::cout << name;
 
-    char ch [] = {'R', 'O', 'C', 'K'}; // error no dynamic => runtime resize it'll be constant   
+    char ch [] = {'R', 'O', 'C', 'K'};         // ❌ error no dynamic => runtime resize it'll be constant   
     ch = {'L', 'O', 'L'};
 
+    
 
     // Input string
 
+    std::string name;                         // ✔️ getline reads the full line.
+    std::cout << "Enter your Name: ";
+    std::getline(std::cin, name);           
+    std::cout << "Sup My Nigga: " << name;
 
-    std::string name;             // cin reads a single word, not the full line.
+
+    std::string name;                        // ❌ cin reads a single word, not the full line.
     std::cout << "Enter name: ";
     std::cin >> name;
     std::cout << name;
-
-
-    std::string name;
-    std::cout << "Enter your Name: ";
-    std::getline(std::cin, name);
-    std::cout << "Sup My Nigga: " << name;
 
     */
     
