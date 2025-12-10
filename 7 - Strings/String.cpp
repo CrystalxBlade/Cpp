@@ -24,17 +24,19 @@ int main()
 
     // Input string
 
+
+    std::string name;             // cin reads a single word, not the full line.
+    std::cout << "Enter name: ";
+    std::cin >> name;
+    std::cout << name;
+
+
     std::string name;
     std::cout << "Enter your Name: ";
     std::getline(std::cin, name);
     std::cout << "Sup My Nigga: " << name;
 
     */
-
-    std::string name;             // cin reads a single word, not the full line.
-    std::cout << "Enter name: ";
-    std::cin >> name;
-    std::cout << name;
     
     return 0;
 }
