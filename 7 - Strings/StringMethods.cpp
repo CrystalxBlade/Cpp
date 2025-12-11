@@ -45,5 +45,13 @@ int main()
     // substr
 
     std::cout << "substr(0, 5): " << s.substr(0,5) << std::endl;
+
+    std::cout << "\n";
+
+    // find
+
+    std::cout << "Find Blade: " << s.find("Blade") << std::endl;
+    std::cout << "Find a: " << s.find("a") << std::endl;
+
     return 0;
 }
