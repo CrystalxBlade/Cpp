@@ -47,11 +47,21 @@ int main()
     std::cout << "substr(0, 5): " << s.substr(0,5) << std::endl;
 
     std::cout << "\n";
-
+    
     // find
-
+    
     std::cout << "Find Blade: " << s.find("Blade") << std::endl;
     std::cout << "Find a: " << s.find("a") << std::endl;
+    
+    std::cout << "\n";
+
+    //erase
+
+    s.erase(5);
+    std::cout << "After erase (5): " << s << std::endl;       // Remove everything from index 5 to the end
+    
+    s.erase(3, 2);
+    std::cout << "After erase (3, 2): " << s << std::endl;    // Starting at index 3, remove 2 characters.
 
     return 0;
 }
