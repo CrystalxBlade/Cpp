@@ -32,6 +32,13 @@ int main()
 
     s.pop_back();
     std::cout << "After pop_back: " << s << std::endl;
+
+    std::cout << "\n";
+
+    // append
+
+    s.append(" C++");
+    std::cout << "After append: " << s << std::endl;
     
     return 0;
 }
