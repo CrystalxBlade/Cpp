@@ -40,5 +40,10 @@ int main()
     s.append(" C++");
     std::cout << "After append: " << s << std::endl;
     
+    std::cout << "\n";
+
+    // substr
+
+    std::cout << "substr(0, 5): " << s.substr(0,5) << std::endl;
     return 0;
 }
