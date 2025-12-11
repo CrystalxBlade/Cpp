@@ -33,6 +33,6 @@ int main()
     s.pop_back();
     std::cout << "After pop_back: " << s << std::endl;
 
-
+    
     return 0;
 }
