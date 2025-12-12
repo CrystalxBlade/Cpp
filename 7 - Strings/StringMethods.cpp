@@ -2,6 +2,7 @@
 
 int main()
 {
+   
     std::string s = "Crystal x Blade";
 
     // length / size
@@ -76,6 +77,18 @@ int main()
 
     s.replace(0, 5, "replaced");
     std::cout << s << std::endl;
+
+    // clear()
+
+    s.clear();
+    std::cout << "After clear(), size: " << s.size() << std::endl;  // Removes all characters
+ 
+    // empty()
+
+    if (s.empty())
+        std::cout << "String is empty now." << std::endl;   // Checks if string is empty
+    else
+        std::cout << "String is not empty." << std::endl;
 
     return 0;
 }
