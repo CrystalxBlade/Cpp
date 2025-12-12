@@ -60,8 +60,22 @@ int main()
     s.erase(5);
     std::cout << "After erase (5): " << s << std::endl;       // Remove everything from index 5 to the end
     
+    // erase(index, count)
+    
     s.erase(3, 2);
     std::cout << "After erase (3, 2): " << s << std::endl;    // Starting at index 3, remove 2 characters.
+
+    std::cout << "\n";
+
+    // insert(position, text)
+
+    s.insert(4, "_Add_");
+    std::cout << "After insert: " << s << std::endl;
+
+    // replace(position, count, text)
+
+    s.replace(0, 5, "replaced");
+    std::cout << s << std::endl;
 
     return 0;
 }
