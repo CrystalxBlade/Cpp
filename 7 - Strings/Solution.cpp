@@ -18,6 +18,14 @@ int main()
     std::string name = "Crystal";
     std::cout << "length / size is " << name.length() << std::endl;
 
+    Q3.
+    -------------------------------->  
+
+    std::string s = "Crystal";
+
+    std::cout << "First character: " << s[0] <<std::endl;
+    std::cout << "Last character: " << s[s.length() - 1] <<std::endl;
+
     */
     return 0;
 }
