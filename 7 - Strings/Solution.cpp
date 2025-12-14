@@ -26,6 +26,15 @@ int main()
     std::cout << "First character: " << s[0] <<std::endl;
     std::cout << "Last character: " << s[s.length() - 1] <<std::endl;
 
+    Q4.
+    -------------------------------->
     */
+
+    std::string s = "Crystal";
+
+    for(int i = 0; i < s.length(); i++)
+    {
+        std::cout << s[i] << " ";
+    }
     return 0;
 }
