@@ -45,6 +45,22 @@ int main()
         std::cout << c << " ";
     }
     
+    Q5.
+    -------------------------------->
+    
+
+    std::string name = " ";
+
+    if(name.empty())
+        std::cout << "String is empty";
+    else
+        std::cout << "name = " << name;    
+    
+
+    Q5.
+    -------------------------------->
+
     */
+
     return 0;
 }
