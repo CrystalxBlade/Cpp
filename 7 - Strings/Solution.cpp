@@ -1,8 +1,9 @@
+/*
 #include <iostream>
 
 int main()
 {
-    /*
+    
 
     Q1.
     -------------------------------->    
@@ -65,11 +66,27 @@ int main()
 
     Q7.
     -------------------------------->
-    */
-
+    
     std::string name = "Crystal";
 
     name.pop_back();
     std::cout << name << std::endl;
+    
+    Q8.
+    -------------------------------->   
+
+#include <iostream>
+#include <algorithm>
+
+int main()
+{
+    std::string name = "blade";
+    
+    std::transform(name.begin(), name.end(), name.begin(), ::toupper);
+
+    std::cout << name << std::endl;
+
     return 0;
 }
+
+*/
