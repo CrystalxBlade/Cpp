@@ -41,30 +41,30 @@
 
 ### 18. Count how many times a word appears in a string.
 
-### Extract the first word from a string.
+### 19. Extract the first word from a string.
 
-### Extract the last word from a string.
+### 20. Extract the last word from a string.
 
 ## 🔵 Level 4 — Logical String Problems
 
-### Check whether a string is a palindrome.
+### 21. Check whether a string is a palindrome.
 
-### Check whether a string contains only alphabets.
+### 22. Check whether a string contains only alphabets.
 
-### Count the frequency of each character in a string.
+### 23. Count the frequency of each character in a string.
 
-### Remove duplicate characters from a string.
+### 24. Remove duplicate characters from a string.
 
-### Find the most frequent character in a string.
+### 25. Find the most frequent character in a string.
 
 ## 🔴 Level 5 — Slightly Advanced (Still Beginner-Safe)
 
-### Check if two strings are anagrams.
+### 26. Check if two strings are anagrams.
 
-### Sort characters of a string alphabetically.
+### 27. Sort characters of a string alphabetically.
 
-### Remove all vowels from a string.
+### 28. Remove all vowels from a string.
 
-### Capitalize the first letter of each word.
+### 29. Capitalize the first letter of each word.
 
-### Find the longest word in a sentence.
+### 30. Find the longest word in a sentence.
