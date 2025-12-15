@@ -1,45 +1,45 @@
 
 ## 🟢 Level 1 — Basics
 
-### Input a string and print it.
+### 1. Input a string and print it.
 
-### Find the length of a string using size() / length().
+### 2. Find the length of a string using size() / length().
 
-### Print the first and last character of a string.
+### 3. Print the first and last character of a string.
 
-### Access and print every character of a string using indexing.
+### 4. Access and print every character of a string using indexing.
 
-### Check whether a string is empty or not.
+### 5. Check whether a string is empty or not.
 
-### Add a character at the end of a string using push_back().
+### 6. Add a character at the end of a string using push_back().
 
-### Remove the last character of a string using pop_back().
+### 7. Remove the last character of a string using pop_back().
 
 ## 🟡 Level 2 — String Manipulation
 
-### Convert a string to uppercase.
+### 8. Convert a string to uppercase.
 
-### Convert a string to lowercase.
+### 9. Convert a string to lowercase.
 
-### Toggle the case of each character in a string.
+### 10. Toggle the case of each character in a string.
 
-### Reverse a string.
+### 11. Reverse a string.
 
-### Remove all spaces from a string.
+### 12. Remove all spaces from a string.
 
-### Count the number of vowels and consonants in a string.
+### 13. Count the number of vowels and consonants in a string.
 
-### Replace all spaces in a string with _.
+### 14. Replace all spaces in a string with _.
 
-### Check if two strings are equal.
+### 15. Check if two strings are equal.
 
 ## 🟠 Level 3 — Searching & Substrings
 
-### Check if a substring exists inside a string.
+### 16. Check if a substring exists inside a string.
 
-### Find the position of a substring using find().
+### 17. Find the position of a substring using find().
 
-### Count how many times a word appears in a string.
+### 18. Count how many times a word appears in a string.
 
 ### Extract the first word from a string.
 
