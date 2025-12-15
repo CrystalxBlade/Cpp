@@ -28,13 +28,23 @@ int main()
 
     Q4.
     -------------------------------->
-    */
-
+    
     std::string s = "Crystal";
-
+    
     for(int i = 0; i < s.length(); i++)
     {
         std::cout << s[i] << " ";
     }
+        
+     //   or
+     
+    std::string s = "Crystal";
+     
+    for(char c : s)
+    {
+        std::cout << c << " ";
+    }
+    
+    */
     return 0;
 }
