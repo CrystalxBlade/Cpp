@@ -58,9 +58,18 @@ int main()
     Q6.
     -------------------------------->
 
+    std::string name = "Crysta";
+
+    name.push_back('l');
+    std::cout << name << std::endl;
+
+    Q7.
+    -------------------------------->
     */
 
-    
+    std::string name = "Crystal";
 
+    name.pop_back();
+    std::cout << name << std::endl;
     return 0;
 }
