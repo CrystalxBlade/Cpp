@@ -160,8 +160,20 @@ int main()
 {
     std::string name =  "Crystal x Blade";
 
-    std::reverse(name.begin(), name.end());
-    std::cout << name;
+    // std::reverse(name.begin(), name.end());
+    // std::cout << name;
 
+    int i = 0,  j = name.length() - 1;
+    
+    while (i < j)
+    {
+        std::swap(name[i], name[j]);
+
+        i++;
+        j--;
+    }
+
+    std::cout << name; 
+    
     return 0;
 }
