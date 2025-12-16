@@ -180,3 +180,24 @@ int main()
 }
 
 */
+
+#include <iostream>
+
+int main()
+{
+
+    std::string name = "Cry sta l x Bla de";
+
+    std::string result = "";
+
+    for(int i = 0; i < name.length(); i++)
+    {
+        if(name[i] != ' ')
+        {
+            result += name[i];
+        }
+    }
+
+    std::cout << result;
+    return 0;
+}
