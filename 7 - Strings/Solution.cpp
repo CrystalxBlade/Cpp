@@ -74,8 +74,6 @@ int main()
     
     Q8.
     -------------------------------->   
-    
-*/
 
 #include <iostream>
 #include <algorithm>
@@ -89,7 +87,7 @@ int main()
     std::cout << name << std::endl;
     
     //       or
-    
+
     std::string name = "blade";
 
     for(int i = 0; i < name.length(); i++)
@@ -101,8 +99,9 @@ int main()
     return 0;
 }
 
+    Q9.
+    -------------------------------->
 
-/*
 #include <iostream>
 #include <algorithm>
 
@@ -112,7 +111,6 @@ int main()
     
     std::transform(name.begin(), name.end(), name.begin(), ::tolower);
     std::cout << name;
-    
    
     //     or
 
