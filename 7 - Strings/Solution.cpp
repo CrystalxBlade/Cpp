@@ -128,7 +128,6 @@ int main()
 
     Q10.
     -------------------------------->
-*/
 
 #include <iostream>
 #include <algorithm>
@@ -148,3 +147,5 @@ int main()
     std::cout << "Toggled string: "<< name;
     return 0;
 }
+
+*/
