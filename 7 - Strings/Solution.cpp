@@ -148,4 +148,20 @@ int main()
     return 0;
 }
 
+    Q11.
+    -------------------------------->
+
 */
+
+#include <iostream>
+#include <algorithm>
+
+int main()
+{
+    std::string name =  "Crystal x Blade";
+
+    std::reverse(name.begin(), name.end());
+    std::cout << name;
+
+    return 0;
+}
