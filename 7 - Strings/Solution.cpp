@@ -126,6 +126,8 @@ int main()
     return 0;
 }
 
+    Q10.
+    -------------------------------->
 */
 
 #include <iostream>
@@ -133,6 +135,16 @@ int main()
 
 int main()
 {
-    
+    std::string name = "cRYSTAL X bLADE";
+
+    for(int i = 0; i < name.length(); i++)
+    {
+        if(std::islower(name[i]))
+            name[i] = std::toupper(name[i]);
+        else if(std::isupper(name[i]))
+            name[i] = std::tolower(name[i]);
+    }
+
+    std::cout << "Toggled string: "<< name;
     return 0;
 }
