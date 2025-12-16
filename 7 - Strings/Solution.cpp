@@ -179,8 +179,9 @@ int main()
     return 0;
 }
 
-*/
 
+    Q12.
+    -------------------------------->
 #include <iostream>
 
 int main()
@@ -199,5 +200,21 @@ int main()
     }
 
     std::cout << result;
+    return 0;
+}
+
+*/
+
+#include <iostream>
+
+int main()
+{
+    std::string s1 = "Crystal";
+    std::string s2 = "Blade";
+
+    if(s1 ==  s2)
+    {
+        
+    }
     return 0;
 }
