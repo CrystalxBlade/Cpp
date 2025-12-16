@@ -74,6 +74,8 @@ int main()
     
     Q8.
     -------------------------------->   
+    
+*/
 
 #include <iostream>
 #include <algorithm>
@@ -83,14 +85,24 @@ int main()
     std::string name = "blade";
     
     std::transform(name.begin(), name.end(), name.begin(), ::toupper);
-
+    
     std::cout << name << std::endl;
+    
+    //       or
+    
+    std::string name = "blade";
 
+    for(int i = 0; i < name.length(); i++)
+    {
+        name[i] = std::toupper(name[i]);
+    }
+
+    std::cout << name;
     return 0;
 }
 
 
-
+/*
 #include <iostream>
 #include <algorithm>
 
