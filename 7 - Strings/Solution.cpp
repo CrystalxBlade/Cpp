@@ -151,7 +151,7 @@ int main()
     Q11.
     -------------------------------->
 
-*/
+
 
 #include <iostream>
 #include <algorithm>
@@ -160,8 +160,10 @@ int main()
 {
     std::string name =  "Crystal x Blade";
 
-    // std::reverse(name.begin(), name.end());
-    // std::cout << name;
+    std::reverse(name.begin(), name.end());
+    std::cout << name;
+
+    //       or
 
     int i = 0,  j = name.length() - 1;
     
@@ -172,8 +174,9 @@ int main()
         i++;
         j--;
     }
-
     std::cout << name; 
     
     return 0;
 }
+
+*/
