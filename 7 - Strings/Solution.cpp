@@ -90,3 +90,27 @@ int main()
 }
 
 */
+
+#include <iostream>
+#include <algorithm>
+
+int main()
+{
+    /*
+    std::string name = "CRYSTAL";
+    
+    std::transform(name.begin(), name.end(), name.begin(), ::tolower);
+    std::cout << name;
+    */
+   
+   std::string name = "CRYSTAL";
+
+   for(int i = 0; i < name.length(); i++)
+   {
+     name[i] = std::tolower(name[i]); 
+   }
+
+   std::cout << name;
+   
+    return 0;
+}
