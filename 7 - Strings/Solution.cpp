@@ -89,20 +89,21 @@ int main()
     return 0;
 }
 
-*/
+
 
 #include <iostream>
 #include <algorithm>
 
 int main()
 {
-    /*
     std::string name = "CRYSTAL";
     
     std::transform(name.begin(), name.end(), name.begin(), ::tolower);
     std::cout << name;
-    */
+    
    
+    //     or
+
    std::string name = "CRYSTAL";
 
    for(int i = 0; i < name.length(); i++)
@@ -111,6 +112,8 @@ int main()
    }
 
    std::cout << name;
-   
+
     return 0;
 }
+
+*/
