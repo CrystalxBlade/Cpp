@@ -263,4 +263,21 @@ int main()
     return 0;
 }
 
+    Q15.
+    -------------------------------->
 */
+
+#include <iostream>
+
+int main()
+{
+    std::string s1 = "Crystal";
+    std::string s2 = "Blade";
+
+    if(s1 == s2)
+      std::cout << "Equal";
+    else
+      std::cout << "Different";
+
+    return 0;
+}
