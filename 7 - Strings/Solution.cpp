@@ -209,12 +209,14 @@ int main()
 
 int main()
 {
-    std::string s1 = "Crystal";
-    std::string s2 = "Blade";
+    std::string s = "Kung fu Panda";
 
-    if(s1 ==  s2)
+    int vow = 0, con = 0;
+
+    for(int i = 0; i < s.length(); i++)
     {
         
     }
+
     return 0;
 }
