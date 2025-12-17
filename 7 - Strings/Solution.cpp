@@ -203,7 +203,8 @@ int main()
     return 0;
 }
 
-*/
+    Q13.
+    -------------------------------->
 
 #include <iostream>
 
@@ -227,5 +228,15 @@ int main()
     }
 
     std::cout << "We have " << vow << " vowels and " << con << " consonents";
+    return 0;
+}
+
+*/
+
+#include <iostream>
+
+int main()
+{
+    
     return 0;
 }
