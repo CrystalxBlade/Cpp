@@ -231,12 +231,25 @@ int main()
     return 0;
 }
 
-*/
+    Q14.
+    -------------------------------->
 
 #include <iostream>
-
+#include <algorithm>
 int main()
 {
-    
+    std::string name = "Crystal x Blade";
+
+    for(int i = 0; i < name.length(); i++)
+    {
+        if(name[i] == ' ')
+        {
+            name[i] = '_';
+        }
+    }
+
+    std::cout << name << std::endl;
     return 0;
 }
+
+*/
