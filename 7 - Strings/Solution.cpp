@@ -215,8 +215,17 @@ int main()
 
     for(int i = 0; i < s.length(); i++)
     {
-        
+        char ch = std::tolower(s[i]);
+
+        if(ch >= 'a' && ch <= 'z')
+        {
+            if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
+                vow++;
+            else
+                con++;
+        }
     }
 
+    std::cout << "We have " << vow << " vowels and " << con << " consonents";
     return 0;
 }
