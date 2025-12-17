@@ -234,8 +234,10 @@ int main()
     Q14.
     -------------------------------->
 
+
 #include <iostream>
 #include <algorithm>
+
 int main()
 {
     std::string name = "Crystal x Blade";
@@ -249,6 +251,15 @@ int main()
     }
 
     std::cout << name << std::endl;
+    
+    //        or
+
+    std::string name = "Crystal x Blade";
+
+    std::replace(name.begin(), name.end(), ' ', '_');
+
+    std::cout << name << std::endl;
+
     return 0;
 }
 
