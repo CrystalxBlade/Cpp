@@ -282,7 +282,6 @@ int main()
 
     Q16.
     -------------------------------->
-*/
 
 #include <iostream>
 #include <algorithm>
@@ -302,3 +301,17 @@ int main()
 
     return 0;
 }
+
+🧠 Mental model (remember this)
+
+Think of npos as:
+
+“I searched the entire string.
+There is no place where this substring exists.”
+
+⭐ One-line takeaway
+
+We use npos because it is the only safe, unambiguous way
+to represent ‘not found’ for unsigned string indices.
+
+*/
