@@ -291,9 +291,6 @@ int main()
     std::string text = "Kung Fu Panda";
     std::string sub = "Fu";
 
-    std::transform(text.begin(), text.end(), text.begin(), ::tolower);
-    std::transform(sub.begin(), sub.end(), sub.begin(), ::tolower);
-
     if (text.find(sub) != std::string::npos)
         std::cout << "Found substring" << std::endl;
     else
