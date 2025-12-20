@@ -315,4 +315,23 @@ to represent ‘not found’ for unsigned string indices.
 Q17.
 -------------------------------->
 
+
+
+#include <iostream>
+
+int main()
+{
+    std::string text = "Kung Fu Panda";
+    std::string sub = "Fu";
+    
+    size_t pos = text.find(sub);
+
+    if (pos != std::string::npos)
+        std::cout << "Substring found at the index " << pos << std::endl;
+    else
+        std::cout << "Substring not found " << std::endl;
+
+    return 0;
+}
+
 */

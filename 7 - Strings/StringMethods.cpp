@@ -48,11 +48,18 @@ int main()
     std::cout << "substr(0, 5): " << s.substr(0,5) << std::endl;  // Returns substring from index 0 of length 5
 
     std::cout << "\n";
-    
+
     // find
     
     std::cout << "Find Blade: " << s.find("Blade") << std::endl;  // Returns starting index of "Blade" inside the string
     std::cout << "Find a: " << s.find("a") << std::endl;
+
+
+    std::string word = "la";
+    size_t pos = 0;
+
+    pos = s.find(word, pos);
+    std::cout << "Found " << word << " at: " << pos; 
     
     std::cout << "\n";
 
