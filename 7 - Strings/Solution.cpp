@@ -311,4 +311,8 @@ There is no place where this substring exists.”
 We use npos because it is the only safe, unambiguous way
 to represent ‘not found’ for unsigned string indices.
 
+
+Q17.
+-------------------------------->
+
 */
