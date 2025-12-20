@@ -20,3 +20,20 @@ positions (indexes)
 So the language designers said:
 
 “Let’s make ONE standard type for sizes.”
+
+## 🟢 What does size_t look like?
+
+On most systems:
+
+32-bit system → size_t = unsigned int
+
+64-bit system → size_t = unsigned long long
+
+But you don’t care which one.
+You only care that it is:
+
+❗ unsigned (never negative)
+
+## 🟡 Simple rule (remember this forever)
+
+If something represents a size, length, or index → use size_t.
