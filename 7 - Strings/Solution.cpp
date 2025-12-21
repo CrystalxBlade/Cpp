@@ -359,7 +359,6 @@ int main()
  Q19.
  -------------------------------->
 
-*/
 #include <iostream>
 
 int main()
@@ -375,6 +374,35 @@ int main()
     }
 
     std::cout << "Extracted first word: " << word << std::endl;
+
+    return 0;
+}
+
+  Q20.
+  -------------------------------->
+*/
+
+#include <iostream>
+
+int main()
+{
+    std::string str = "Kung Fu Panda";
+    std::string last = "";
+
+    int i = str.length() - 1;
+
+    while (i >= 0 && str[i] == ' ')
+    {
+        i--;
+    }
+
+    while (i >= 0 && str[i] != ' ')
+    {
+        last = str[i] + last;
+        i--;
+    }
+    
+    std::cout << last << std::endl;
 
     return 0;
 }
