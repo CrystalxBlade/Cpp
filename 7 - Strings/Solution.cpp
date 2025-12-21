@@ -315,8 +315,6 @@ to represent ‘not found’ for unsigned string indices.
 Q17.
 -------------------------------->
 
-
-
 #include <iostream>
 
 int main()
@@ -334,4 +332,28 @@ int main()
     return 0;
 }
 
+Q18.
+-------------------------------->
+
 */
+
+#include <iostream>
+
+int main()
+{
+    std::string text = "KFung Fu Panda Fu Fu";
+    std::string word = "Fu";
+
+    int count = 0;
+    size_t pos = 0;
+
+    while ((pos = text.find(word, pos)) != std::string::npos)
+    {
+        count++;
+        pos = pos + word.length();
+    }
+
+    std::cout << "Word Appears " << count << " times";
+
+    return 0;
+}
