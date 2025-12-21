@@ -406,4 +406,13 @@ int main()
     return 0;
 }
 
+ Q21.
+ -------------------------------->
 */
+#include <iostream>
+
+int main()
+{
+    
+    return 0;
+}
