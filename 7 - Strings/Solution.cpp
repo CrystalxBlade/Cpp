@@ -335,8 +335,6 @@ int main()
 Q18.
 -------------------------------->
 
-
-
 #include <iostream>
 
 int main()
@@ -358,4 +356,14 @@ int main()
     return 0;
 }
 
+ Q19.
+ -------------------------------->
+
 */
+#include <iostream>
+
+int main()
+{
+    
+    return 0;
+}
