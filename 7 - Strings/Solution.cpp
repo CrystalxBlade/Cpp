@@ -408,11 +408,34 @@ int main()
 
  Q21.
  -------------------------------->
-*/
+
 #include <iostream>
+#include <algorithm>
 
 int main()
 {
-    
+    std::string str = "Wow";
+    std::string rev = str;
+
+    std::transform(str.begin(), str.end(), str.begin(), ::tolower);
+    std::transform(rev.begin(), rev.end(), rev.begin(), ::tolower);
+
+    int i = 0, j = str.length() - 1;
+
+    while (i <= j)
+    {
+       std::swap(str[i],str[j]);
+
+       i++;
+       j--;
+    }
+
+    if (str == rev)
+        std::cout << "It's a Plaindrome" << std::endl;
+    else
+        std::cout << "Not a Plaindrom" << std::endl;
+
     return 0;
 }
+
+*/
