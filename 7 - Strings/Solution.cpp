@@ -364,6 +364,17 @@ int main()
 
 int main()
 {
-    
+    std::string str = "Kung Fu Panda";
+    std::string word = "";
+
+    for(int i = 0; i < str.length(); i++)
+    {
+        if (str[i] == ' ')
+        break;
+        word += str[i];
+    }
+
+    std::cout << "Extracted first word: " << word << std::endl;
+
     return 0;
 }
