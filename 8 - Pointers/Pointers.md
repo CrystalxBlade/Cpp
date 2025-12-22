@@ -17,7 +17,8 @@
 ### Address	 ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤLocation
 ### Pointer	 ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤPaper that stores the address
 
-
+ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ
+ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ
 ## 🔢 Example without pointers first
 ### int x = 10;
 
