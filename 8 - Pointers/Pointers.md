@@ -12,7 +12,7 @@ A house address tells you where the house is
 # In programming:
 
 ##  Thing ㅤMeaning
-### Variable House
-### Value	 Stuff inside
-### Address	 Location
-### Pointer	 Paper that stores the address
+### Variable ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤHouse
+### Value	 ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤStuff inside
+### Address	 ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤLocation
+### Pointer	 ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤPaper that stores the address
