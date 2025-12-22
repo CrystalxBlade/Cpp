@@ -35,7 +35,7 @@
 ### int x = 10;
 ### int* p = &x;
 
-# Let’s decode this slowly.
+## Let’s decode this slowly.
 
 ### 🧩 Line by line
 ### 1️⃣ int* p;
