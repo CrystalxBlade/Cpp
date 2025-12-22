@@ -34,3 +34,26 @@
 ## 👉 Now introduce a pointer
 ### int x = 10;
 ### int* p = &x;
+
+# Let’s decode this slowly.
+
+### 🧩 Line by line
+### 1️⃣ int* p;
+
+### p is a pointer to an int
+
+### Means: p can store the address of an int
+
+## 2️⃣ &x
+
+### & = address-of operator
+
+### &x means: “give me the address of x”
+
+## 3️⃣ p = &x;
+
+### p now stores where x lives in memory
+
+### So:
+
+### p  →  address of x
