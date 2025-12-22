@@ -13,6 +13,6 @@ A house address tells you where the house is
 
 ##  Thing ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤMeaning
 ### Variable ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤHouse
-### Value	 ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤStuff inside
+### Value	 ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤStuff inside
 ### Address	 ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤLocation
-### Pointer	 ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤPaper that stores the address
+### Pointer	 ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤPaper that stores the address
