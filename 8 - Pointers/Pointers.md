@@ -11,8 +11,8 @@ A house address tells you where the house is
 
 # In programming:
 
-##  Thing ㅤMeaning
+##  Thing ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤMeaning
 ### Variable ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤHouse
-### Value	 ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤStuff inside
+### Value	 ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤStuff inside
 ### Address	 ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤLocation
 ### Pointer	 ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤPaper that stores the address
