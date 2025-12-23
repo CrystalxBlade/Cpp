@@ -64,3 +64,10 @@
 ### &xㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤaddress (e.g. 0x100)
 ### pㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤstores 0x100
 ### *pㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤvalue at that address → 10
+
+## 🔑 Golden rules (memorize these)
+
+### 1️⃣ & → gives address
+### 2️⃣ * → goes to address
+### 3️⃣ Pointer stores address, not value
+### 4️⃣ *p changes the original variable
