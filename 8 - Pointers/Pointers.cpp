@@ -11,5 +11,13 @@ int main()
 
     // * ----> (value at) Dereference Operator
     std::cout << "The value at address of b : " << *b << "\n";
+
+    // Pointer to Pointer 
+    int** c = &b;
+    std::cout << "Address of b : " << &b << "\n";
+    std::cout << "Value store in b : " << c << "\n";
+    std::cout << "value pointed by c : " << *c << "\n";
+    std::cout << "value pointed by **c  : " << **c << "\n";
+
     return 0;
 }
