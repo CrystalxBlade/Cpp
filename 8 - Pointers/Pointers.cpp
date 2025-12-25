@@ -3,9 +3,9 @@
 int main()
 {
     int a = 10;
-
-    int *p = &a;
+    int* b = &a;
     
-    std::cout << p;
+    std::cout << b << "\n";
+    std::cout << &a;
     return 0;
 }
