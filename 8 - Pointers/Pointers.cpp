@@ -7,9 +7,9 @@ int main()
     
     // & ----> (Address of) Operator
     std::cout << "The address of a : " <<&a << "\n";
-    std::cout << "The value of b : " << b;
+    std::cout << "The address stored in b : " << b << "\n";
 
     // * ----> (value at) Dereference Operator
-    std::cout << "The address of a is " << *b << "\n";
+    std::cout << "The value at address of b : " << *b << "\n";
     return 0;
 }
