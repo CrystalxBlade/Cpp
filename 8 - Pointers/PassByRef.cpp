@@ -1,7 +1,9 @@
 #include <iostream>
 
 
-void changA(int* ptr)
+/*
+
+void changA(int* ptr) // pass by reference using pointers
 {
     *ptr = 20;
 }
@@ -13,3 +15,41 @@ int main()
     std::cout << "inside main fxn: " << a << std::endl; 
     return 0;
 }
+
+*/
+
+/*
+
+void FuncA(int &b) // pass by reference using alias
+{
+    b = 20;
+}
+int main()
+{
+    int a = 10;
+    FuncA(a);
+
+    std::cout << "inside main fxn : " << a << std::endl;
+
+    return 0;
+}
+
+*/
+
+/*
+
+void FuncA(int &b) // pass by value
+{
+    b = 20;
+}
+int main()
+{
+    int a = 10;
+    FuncA(a);
+
+    std::cout << "inside main fxn : " << a << std::endl;
+
+    return 0;
+}
+
+*/
