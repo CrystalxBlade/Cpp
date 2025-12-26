@@ -16,6 +16,8 @@ int main()
     return 0;
 }
 
+result = 20 ✔️
+
 */
 
 /*
@@ -34,6 +36,8 @@ int main()
     return 0;
 }
 
+reuslt = 20 ✔️
+
 */
 
 /*
@@ -51,5 +55,7 @@ int main()
 
     return 0;
 }
+
+result = 10 ❌ becuz it is just a copy 
 
 */
