@@ -62,3 +62,16 @@ int main()
 
 */
 
+int main()
+{
+    int x = 5;
+    int* y = &x;
+    int** z = &y;
+
+    std::cout << "x add :" << &x << "\n";
+    std::cout << "y add :" << &y;
+    std::cout << &y << "\n";
+    std::cout << *z;
+
+    return 0;
+}
