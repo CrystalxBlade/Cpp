@@ -16,7 +16,7 @@ int main()
     return 0;
 }
 
-result = 20 ✔️
+// result = 20 ✔️
 
 */
 
@@ -36,13 +36,13 @@ int main()
     return 0;
 }
 
-reuslt = 20 ✔️
+// reuslt = 20 ✔️
 
 */
 
 /*
 
-void FuncA(int &b) // pass by value
+void FuncA(int b) // pass by value
 {
     b = 20;
 }
@@ -56,6 +56,6 @@ int main()
     return 0;
 }
 
-result = 10 ❌ becuz it is just a copy 
+// result = 10 ❌ becuz it is just a copy 
 
 */

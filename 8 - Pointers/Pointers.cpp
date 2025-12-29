@@ -20,7 +20,7 @@ int main()
     std::cout << "value pointed by **c  : " << **c << "\n";
 
     // Null Pointer
-    int** ptr = NULL;
+    int** ptr = nullptr;
 
     std::cout << ptr;
     std::cout << *ptr; // ❌ can't Dereference null Pointer
