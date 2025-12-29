@@ -56,6 +56,6 @@ int main()
     return 0;
 }
 
-// result = 10 ❌ becuz it is just a copy 
+// result = 10 ❌ because it is passed by value (a copy) 
 
 */
