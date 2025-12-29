@@ -69,9 +69,9 @@ int main()
     int** z = &y;
 
     std::cout << "x add :" << &x << "\n";
-    std::cout << "y add :" << &y;
-    std::cout << &y << "\n";
-    std::cout << *z;
+    std::cout << "y add :" << &y << "\n";
+
+    std::cout << **z;
 
     return 0;
 }
