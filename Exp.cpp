@@ -71,6 +71,7 @@ int main()
     std::cout << "x add :" << &x << "\n";
     std::cout << "y add :" << &y << "\n";
 
+    std::cout << y << "\n";
     std::cout << **z;
 
     return 0;
