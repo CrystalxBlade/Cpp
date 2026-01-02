@@ -12,7 +12,7 @@ Think of it as making your own custom data type.
 
 Suppose you want to store information about a student:
 
-Name
+Name..
 
 Roll number
 
@@ -20,10 +20,10 @@ Marks
 
 Without a structure, you’d need separate variables:
 
-```std::string name;```
-`int roll;`
+```std::string name;
+int roll;
 float marks;
-
+```
 
 Now imagine storing this for 100 students — nightmare.
 
