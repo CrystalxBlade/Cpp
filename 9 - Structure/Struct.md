@@ -28,12 +28,12 @@ float marks;`
 Now imagine storing this for 100 students — nightmare.
 
 ## ✅ Structure solves this
-struct Student
+``struct Student
 {
     std::string name;
     int roll;
     float marks;
-};
+};``
 
 
 Now Student becomes a new data type.
