@@ -12,7 +12,7 @@ Think of it as making your own custom data type.
 
 Suppose you want to store information about a student:
 
-Name..
+Name
 
 Roll number
 
