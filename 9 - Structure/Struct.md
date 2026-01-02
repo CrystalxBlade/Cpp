@@ -20,9 +20,9 @@ Marks
 
 Without a structure, you’d need separate variables:
 
-`std::string name;
-int roll;
-float marks;`
+`std::string name;`
+`int roll;`
+float marks;
 
 
 Now imagine storing this for 100 students — nightmare.
