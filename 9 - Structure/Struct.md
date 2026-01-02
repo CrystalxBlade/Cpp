@@ -42,4 +42,5 @@ Now Student becomes a new data type.
 ## Mental rule that never fails
 
 If everything is public and it’s just data → struct
+
 If you care about hiding data or enforcing rules → class
