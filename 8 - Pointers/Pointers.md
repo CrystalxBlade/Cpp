@@ -21,10 +21,10 @@
 ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ
 ## 🔢 Example without pointers first
 ``` 
-int x = 10;
+## int x = 10;
 
 
-x → value = 10 
+## x → value = 10 
 ```
 
 ### Stored somewhere in memory
