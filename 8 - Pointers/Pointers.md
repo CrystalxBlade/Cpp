@@ -20,10 +20,12 @@
 ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ
 ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ
 ## 🔢 Example without pointers first
-### int x = 10;
+``` 
+int x = 10;
 
 
-### x → value = 10
+x → value = 10 
+```
 
 ### Stored somewhere in memory
 
@@ -32,8 +34,10 @@
 ### You normally don’t care about the address.
 
 ## 👉 Now introduce a pointer
-### int x = 10;
-### int* p = &x;
+```
+int x = 10;
+int* p = &x;
+```
 
 ## Let’s decode this slowly.
 
