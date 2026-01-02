@@ -20,7 +20,7 @@ Marks
 
 Without a structure, you’d need separate variables:
 
-std::string name;
+`std::string name;`
 int roll;
 float marks;
 
