@@ -12,11 +12,11 @@ Think of it as making your own custom data type.
 
 Suppose you want to store information about a student:
 
-`Name
+`Name`
 
-Roll number
+`Roll number`
 
-Marks`
+`Marks`
 
 Without a structure, you’d need separate variables:
 
