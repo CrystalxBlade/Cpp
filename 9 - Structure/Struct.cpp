@@ -3,6 +3,7 @@
 struct student
 {
     std::string name;
+    double gpa;
 };
 
 int main()
