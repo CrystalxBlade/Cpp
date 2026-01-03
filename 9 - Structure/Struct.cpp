@@ -2,8 +2,8 @@
 
 struct student
 {
-    
-}
+    std::string name;
+};
 
 int main()
 {
