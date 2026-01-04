@@ -12,7 +12,12 @@ int main()
     student stud1;
     stud1.name = "Spongebob";
     stud1.gpa = 6.2;
-    
+    stud1.enrolled = true;
+
+
+    std::cout << stud1.name << "\n";
+    std::cout << stud1.gpa << "\n";
+    std::cout << stud1.enrolled << "\n";
 
     return 0;
 }
