@@ -19,13 +19,15 @@ int main()
     emp2.name = "Patrick";
     emp2.salary = 4.57;
 
-    std::cout << emp1.id << "\n";
-    std::cout << emp1.name << "\n";
-    std::cout << emp1.salary << "\n";
+    std::cout << "id     : " << emp1.id << "\n";
+    std::cout << "name   : " << emp1.name << "\n";
+    std::cout << "salary : " << emp1.salary << "\n";
 
-    std::cout << emp2.id << "\n";
-    std::cout << emp2.name << "\n";
-    std::cout << emp2.salary;
+    std::cout << "\n";
+
+    std::cout << "id     : " << emp2.id << "\n";
+    std::cout << "name   : " << emp2.name << "\n";
+    std::cout << "salary : " << emp2.salary;
     
     return 0;
 }
