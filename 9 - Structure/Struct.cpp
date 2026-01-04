@@ -23,9 +23,9 @@ int main()
     std::cout << stud1.gpa << "\n";
     std::cout << stud1.enrolled << "\n";
 
-    std::cout << stud1.name << "\n";
-    std::cout << stud1.gpa << "\n";
-    std::cout << stud1.enrolled << "\n";
+    std::cout << stud2.name << "\n";
+    std::cout << stud2.gpa << "\n";
+    std::cout << stud2.enrolled;
 
     return 0;
 }
