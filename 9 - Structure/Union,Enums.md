@@ -1,5 +1,5 @@
 # 1️⃣ Structure (struct)
-👉 “Group different data together”
+### 👉 “Group different data together”
 ```
 struct Student
 {
@@ -17,7 +17,7 @@ Each member has its own memory
 All members exist at the same time
 
 ### Memory idea
-roll | marks | grade
+### roll | marks | grade
 
 Use when
 
@@ -25,7 +25,7 @@ Use when
 ✔ All values are needed together
 
 # 2️⃣ Union (union)
-👉 “Store different data, but only ONE at a time”
+### 👉 “Store different data, but only ONE at a time”
 ```
 union Data
 {
@@ -64,7 +64,7 @@ Use when
 ✔ Low-level work (drivers, compilers, protocols)
 
 # 3️⃣ Enum (enum)
-👉 “Create named constants”
+### 👉 “Create named constants”
 ```
 enum Day
 {
@@ -94,12 +94,12 @@ if (today == Wednesday)
 ```
 
 Internally:
-
+```
 Monday = 0
 Tuesday = 1
 Wednesday = 2
 ...
-
+```
 Enum with custom values
 ```
 enum Status
