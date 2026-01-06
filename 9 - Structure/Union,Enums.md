@@ -21,7 +21,7 @@ Memory idea
 
 If you write to i, f and c get overwritten.
 
-Example
+## Example
 ```
 Data d;
 d.i = 10;
