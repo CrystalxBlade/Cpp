@@ -1,4 +1,32 @@
-2️⃣ Union (union)
+1️⃣ Structure (struct)
+👉 “Group different data together”
+
+You already know this one, but let’s lock it in properly.
+
+struct Student
+{
+    int roll;
+    float marks;
+    char grade;
+};
+
+What it does
+
+Groups different data types
+
+Each member has its own memory
+
+All members exist at the same time
+
+Memory idea
+roll | marks | grade
+
+Use when
+
+✔ You need to represent a real-world entity
+✔ All values are needed together
+
+# 2️⃣ Union (union)
 👉 “Store different data, but only ONE at a time”
 ```
 union Data
@@ -57,7 +85,7 @@ Improves readability
 
 Prevents magic numbers
 
-Example
+## Example
 ```
 Day today = Wednesday;
 
