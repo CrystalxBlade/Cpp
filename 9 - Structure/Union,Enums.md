@@ -109,3 +109,13 @@ enum Status
     Error = 500
 };
 ```
+
+## 🧠 Side-by-side comparison
+
+| Feature | Struct | Union | Enum |
+|--------|--------|-------|------|
+| Groups data | ✅ | ✅ | ❌ |
+| Multiple values at once | ✅ | ❌ | ❌ |
+| Memory efficient | ❌ | ✅ | ✅ |
+| Named constants | ❌ | ❌ | ✅ |
+| Real-world modeling | ✅ | ❌ | ❌ |
