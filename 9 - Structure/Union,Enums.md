@@ -39,6 +39,7 @@ Use when
 
 3️⃣ Enum (enum)
 👉 “Create named constants”
+```
 enum Day
 {
     Monday,
@@ -47,7 +48,7 @@ enum Day
     Thursday,
     Friday
 };
-
+```
 What it does
 
 Defines a set of named integer values
@@ -57,13 +58,14 @@ Improves readability
 Prevents magic numbers
 
 Example
+```
 Day today = Wednesday;
 
 if (today == Wednesday)
 {
     std::cout << "Midweek";
 }
-
+```
 
 Internally:
 
@@ -73,9 +75,11 @@ Wednesday = 2
 ...
 
 Enum with custom values
+```
 enum Status
 {
     Success = 200,
     NotFound = 404,
     Error = 500
 };
+```
