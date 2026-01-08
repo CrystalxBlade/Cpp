@@ -1,6 +1,9 @@
 #include <iostream>
 
-enum 
+enum Day
+{
+    
+}
 
 int main()
 {
