@@ -1,5 +1,7 @@
 #include <iostream>
 
+// Enum represents a fixed set of related values
+
 enum Day
 {
     Monday,
@@ -15,11 +17,15 @@ int main()
 {
     Day today = Friday;
 
-    Switch(today)
+    switch(today)
     {
         case Monday:
         std::cout << "Start of the weeknd";
         break;
+        
+
+        default:
+        std::cout << " Regular day";
     }
 
     return 0;
