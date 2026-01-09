@@ -2,7 +2,7 @@
 
 enum Day
 {
-    
+    Monday
 }
 
 int main()
