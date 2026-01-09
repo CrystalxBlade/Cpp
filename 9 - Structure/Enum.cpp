@@ -23,6 +23,13 @@ int main()
         std::cout << "Start of the weeknd";
         break;
         
+        case Friday:
+        std::cout << "Almost of the weeknd";
+        break;
+
+        case Sunday:
+        std::cout << "Holiday";
+        break;
 
         default:
         std::cout << " Regular day";
