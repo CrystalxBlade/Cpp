@@ -1,8 +1,15 @@
 #include <iostream>
 
-struct 
+struct Address
 {
-    /* data */
+    int house_no;
+    std::string street_name;
+};
+
+struct student
+{
+    std::string name;
+    int roll_no;
 };
 
 
