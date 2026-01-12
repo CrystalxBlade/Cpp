@@ -19,7 +19,8 @@ int main()
     Student stud;
     stud.name = "Blade";
     stud.roll_no = 69;
-    stud.add.house_no
+    stud.add.house_no = 14;
+    stud.add.street_name = "Crystal";
 
     return 0;
 }
