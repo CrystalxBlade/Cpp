@@ -6,14 +6,20 @@ struct Address
     std::string street_name;
 };
 
-struct student
+struct Student
 {
     std::string name;
     int roll_no;
+    Address add;
 };
 
 
 int main()
 {
+    Student stud;
+    stud.name = "Blade";
+    stud.roll_no = 69;
+    stud.add.house_no
+
     return 0;
 }
