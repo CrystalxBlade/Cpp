@@ -11,6 +11,7 @@
 
 ### Instead of functions floating everywhere, you create objects that: hold data know how to act on that data
 
+
 # 🌍 Real-world idea
 
 ## Think about a game character 🎮
