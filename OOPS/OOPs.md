@@ -1,8 +1,8 @@
-🧠 One-line summary
+# 🧠 One-line summary
 
-OOP is programming by modeling real-world entities using objects that combine data and behavior.
+### OOP is programming by modeling real-world entities using objects that combine data and behavior.
 
-🧠 What OOP really is
+# What OOP really is
 
 OOP says:
 
