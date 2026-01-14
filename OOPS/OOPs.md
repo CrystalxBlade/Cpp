@@ -4,10 +4,10 @@
 
 # What OOP really is
 
-OOP says:
+## OOP says:
 
-“Stop writing code like a long script.
-Start modeling your program like real-world things.”
+### “Stop writing code like a long script.
+### Start modeling your program like real-world things.”
 
 Instead of functions floating everywhere, you create objects that:
 
