@@ -9,9 +9,7 @@
 ### “Stop writing code like a long script.
 ### Start modeling your program like real-world things.”
 
-Instead of functions floating everywhere, you create objects that:
-
-hold data
+### Instead of functions floating everywhere, you create objects that: hold data
 
 know how to act on that data
 
