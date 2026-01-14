@@ -35,6 +35,7 @@
 That’s one object.
 
 💻 Code version (C++)
+```
 class Player
 {
 public:
@@ -45,7 +46,7 @@ public:
         std::cout << "Player attacks\n";
     }
 };
-
+```
 
 Here:
 
