@@ -18,9 +18,9 @@
 
 ### A character has:
 
-## -health
+- health
 
-### - level
+- level
 
 - name
 
