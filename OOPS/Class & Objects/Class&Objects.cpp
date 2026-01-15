@@ -2,7 +2,8 @@
 
 class Human
 {
-
+    public:
+    
 }
 
 int main()
