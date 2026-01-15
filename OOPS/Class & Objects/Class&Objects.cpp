@@ -13,9 +13,9 @@ class Human
     }
     void sleep()
     {
-        
+        std::cout << "This person is sleeping";
     }
-}
+};
 
 int main()
 {
