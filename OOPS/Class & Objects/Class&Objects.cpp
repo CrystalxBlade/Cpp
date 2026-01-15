@@ -6,6 +6,15 @@ class Human
     std::string name;
     std::string occupation;
     int age;
+
+    void play()
+    {
+        std::cout << "This person is playing" << "\n";
+    }
+    void sleep()
+    {
+        
+    }
 }
 
 int main()
