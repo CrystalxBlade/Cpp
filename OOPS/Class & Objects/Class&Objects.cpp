@@ -22,6 +22,7 @@ int main()
     Human h1;
 
     h1.name = "Blade";
+    h1.occupation = "Developer";
     
 
     return 0;;
