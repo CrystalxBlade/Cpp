@@ -23,7 +23,7 @@ int main()
 
     h1.name = "Blade";
     h1.occupation = "Developer";
-    
+    h1.age = 23;
 
     return 0;;
 }
