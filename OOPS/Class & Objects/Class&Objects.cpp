@@ -19,5 +19,7 @@ class Human
 
 int main()
 {
+    Human h1;
+
     return 0;;
 }
