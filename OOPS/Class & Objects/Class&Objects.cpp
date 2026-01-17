@@ -25,5 +25,8 @@ int main()
     h1.occupation = "Developer";
     h1.age = 23;
 
+    std::cout << h1.name << "\n";
+    std::cout << h1.occupation << "\n";
+    std::cout << h1.age;
     return 0;;
 }
