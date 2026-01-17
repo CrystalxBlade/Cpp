@@ -1,5 +1,6 @@
 #include <iostream>
 
+/*
 class Human
 {
     public:
@@ -16,9 +17,10 @@ class Human
         std::cout << "This person is sleeping";
     }
 };
-
+*/
 int main()
 {
+    /*
     Human h1;
 
     h1.name = "Blade";
@@ -29,5 +31,9 @@ int main()
     std::cout << h1.occupation << '\n';
     std::cout << h1.age;
 
+    */
+
+    std::cout << "YoYOYOYOYOYO";
+    
     return 0;;
 }
