@@ -9,7 +9,7 @@ class Human
 
     void Play()
     {
-        std::cout << "Playing Assassin's creed" << ;
+        std::cout << "Playing Assassin's creed";
     }
 
     void Sleep()
@@ -30,6 +30,6 @@ int main()
     std::cout << h1.occupation << '\n';
     std::cout << h1.age << '\n';
 
-    
+
     return 0;
 }
