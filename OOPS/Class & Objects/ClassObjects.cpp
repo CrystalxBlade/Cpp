@@ -30,6 +30,8 @@ int main()
     std::cout << h1.occupation << '\n';
     std::cout << h1.age << '\n';
 
+    h1.Play();
+    h1.Sleep();
 
     return 0;
 }
