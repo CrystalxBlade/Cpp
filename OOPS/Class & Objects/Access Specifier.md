@@ -1,4 +1,4 @@
-# 🟢 1. public
+## 🟢 1. public
 
 Open to everyone. No questions asked.
 ```
@@ -17,7 +17,7 @@ Functions you WANT others to use
 
 Public interface of a class
 
-## 🧠 Think:
+### 🧠 Think:
 
 “This is how the world interacts with me.”
 
