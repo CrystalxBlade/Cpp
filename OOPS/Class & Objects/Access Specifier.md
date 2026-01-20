@@ -36,7 +36,8 @@ public:
         health = h;   // ✅ allowed
     }
 };
-
+```
+```
 Player p;
 p.health = 100;   // ❌ ERROR
 ```
