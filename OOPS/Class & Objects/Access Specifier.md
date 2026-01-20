@@ -21,7 +21,7 @@ Public interface of a class
 
 “This is how the world interacts with me.”
 
-🟡 2. private
+## 🟡 2. private
 
 Only accessible inside the class itself.
 ```
@@ -49,11 +49,11 @@ Sensitive variables
 
 Things that should not be modified directly
 
-🧠 Think:
+### 🧠 Think:
 
 “Mind your business.”
 
-🔵 3. protected
+## 🔵 3. protected
 
 Private + accessible by derived (child) classes.
 ```
@@ -82,6 +82,6 @@ Data shared with child classes
 
 Base class internals
 
-🧠 Think:
+### 🧠 Think:
 
 “Family only.”
