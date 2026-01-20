@@ -56,7 +56,7 @@ Things that should not be modified directly
 🔵 3. protected
 
 Private + accessible by derived (child) classes.
-
+```
 class Character
 {
 protected:
@@ -71,10 +71,11 @@ public:
         health += 10;   // ✅ allowed
     }
 };
-
+```
+```
 Player p;
 p.health = 100;   // ❌ ERROR
-
+```
 Use it for:
 
 Data shared with child classes
