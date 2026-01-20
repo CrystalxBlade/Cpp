@@ -1,7 +1,7 @@
 🟢 1. public
 
 Open to everyone. No questions asked.
-
+```
 class Player
 {
 public:
@@ -10,7 +10,7 @@ public:
 
 Player p;
 p.health = 100;   // ✅ allowed
-
+```
 Use it for:
 
 Functions you WANT others to use
@@ -24,7 +24,7 @@ Public interface of a class
 🟡 2. private
 
 Only accessible inside the class itself.
-
+```
 class Player
 {
 private:
@@ -39,7 +39,7 @@ public:
 
 Player p;
 p.health = 100;   // ❌ ERROR
-
+```
 Use it for:
 
 Internal data
