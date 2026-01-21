@@ -7,7 +7,8 @@ class Player
 public:
     int health;
 };
-
+```
+```
 Player p;
 p.health = 100;   // ✅ allowed
 ```
