@@ -1,5 +1,7 @@
 #include <iostream>
 
+/*
+
 class Crystal
 {
     public:
@@ -19,3 +21,5 @@ int main()
 
     return 0;
 }
+
+*/
