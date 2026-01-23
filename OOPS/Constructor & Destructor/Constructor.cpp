@@ -23,3 +23,23 @@ int main()
 }
 
 */
+
+class Crystal
+{
+    public:
+
+    int mana;
+
+    Crystal(int m)
+    {
+        mana = m;
+        std::cout << "Parameterized constructor '\n'";
+    }
+
+};
+
+int main()
+{
+    
+    return 0;
+}
