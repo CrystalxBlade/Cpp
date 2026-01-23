@@ -24,6 +24,8 @@ int main()
 
 */
 
+/*
+
 class Crystal
 {
     public:
@@ -33,7 +35,7 @@ class Crystal
     Crystal(int m)
     {
         mana = m;
-        std::cout << "Parameterized constructor '\n'";
+        std::cout << "Parameterized constructor : ";
     }
 
 };
@@ -41,8 +43,12 @@ class Crystal
 int main()
 {
     Crystal c1(20);
-    Crystal c2(40);
+    std::cout << c1.mana << '\n';
 
-    std::cout << c1.mana << 
+    Crystal c2(40);
+    std::cout << c2.mana << '\n'; 
+
     return 0;
 }
+
+*/
