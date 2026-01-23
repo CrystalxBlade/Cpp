@@ -40,6 +40,9 @@ class Crystal
 
 int main()
 {
-    
+    Crystal c1(20);
+    Crystal c2(40);
+
+    std::cout << c1.mana << 
     return 0;
 }
