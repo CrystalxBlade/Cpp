@@ -8,13 +8,14 @@ class Crystal
     Crystal()
     {
         mana = 20;
-        std::cout << "Default constructor called \n";
+        std::cout << "Default constructor called mana : ";
     }
-}
+};
 
 int main()
 {
     Crystal c;
-    std::
+    std::cout << c.mana << '\n';
+
     return 0;
 }
