@@ -14,7 +14,7 @@ class Crystal
 
 int main()
 {
-    Crystal c;
+    Crystal c;                       // automatically calls default constructor
     std::cout << c.mana << '\n';
 
     return 0;
