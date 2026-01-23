@@ -5,7 +5,7 @@ class Crystal
     public:
     int mana;
 
-    Crystal()
+    Crystal()                         // default constructor
     {
         mana = 20;
         std::cout << "Default constructor called mana : ";
