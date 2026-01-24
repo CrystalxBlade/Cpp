@@ -12,6 +12,6 @@ Same name as the class
 
 No return type (not even void)
 
-Called automatically
+Automatically invoked when the object is created
 
-Used to initialize data members
+Must be public
