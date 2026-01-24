@@ -1,5 +1,7 @@
 ## 🔥 What is a Destructor?
 
+A destructor is a special member function that is automatically called when an object is destroyed to release resources.
+
 A destructor is a special function in a class that:
 
 Runs automatically
