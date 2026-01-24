@@ -21,7 +21,9 @@ delete is used on dynamically allocated object
 Program ends
 
 🧠 Constructor vs Destructor
+|--------|  |--------|
 Constructor	Destructor
+|--------|  |--------|
 Initializes object	Cleans object
 Runs on creation	Runs on destruction
 Can take parameters	No parameters
