@@ -2,7 +2,7 @@
 
 class Crystal
 {
-    std::cout << "";
+     
 };
 
 int main()
