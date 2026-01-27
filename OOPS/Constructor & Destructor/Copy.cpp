@@ -1,6 +1,6 @@
 #include <iostream>
 
-class
+class Crystal()
 
 int main()
 {
