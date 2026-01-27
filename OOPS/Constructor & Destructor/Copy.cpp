@@ -1,8 +1,8 @@
 #include <iostream>
 
-class Crystal()
+class Crystal
 {
-
+    std::cout << "";
 };
 
 int main()
