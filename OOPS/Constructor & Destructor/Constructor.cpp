@@ -29,7 +29,6 @@ int main()
 class Crystal
 {
     public:
-
     int mana;
 
     Crystal(int m)
