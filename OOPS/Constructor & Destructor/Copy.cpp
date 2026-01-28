@@ -13,6 +13,8 @@ class Crystal
 
 int main()
 {
+    Crystal c;
+    c.disp();
     
     return 0;
 }
