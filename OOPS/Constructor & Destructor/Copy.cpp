@@ -5,16 +5,24 @@ class Crystal
      public:
      int mana;
 
-     void disp()
+     Crystal(int m)
      {
-        std::cout << "IDK - - - - -";
+        mana = m;
+     }
+
+     Crystal(const Crystal& p)
+     {
+        mana = p.mana;
+        std::cout << "Copy constructor \n";
      }
 };
 
 int main()
 {
-    Crystal c;
-    c.disp();
-    
+    Crystal c(10);
+    Crystal a = c;
+
+    std::cout << c.mana << "\n";
+    std::cout << a.mana;
     return 0;
 }
