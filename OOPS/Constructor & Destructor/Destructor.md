@@ -8,7 +8,13 @@ Runs automatically
 
 Runs when an object is destroyed
 
-Frees resources like memory, files, connections, etc.
+Free memory
+
+Close files
+
+Release resources
+
+Avoid memory leaks
 
 ## ⏱️ When is Destructor Called?
 
