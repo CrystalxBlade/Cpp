@@ -2,15 +2,24 @@
 
 class Crystal
 {
-    int mana = 0;
+    int num = 0;
 
     Crystal()
     {
-        std::cout << "" 
+        num++;
+        std::cout << "Construct for Obj : " << num << '\n';
     }
-}
+
+    ~Crystal()
+    {
+        num--;
+        std::cout << "destruct for Obj : " << num << '\n';
+    }
+};
 
 int main()
 {
+    std::cout << "in the main function: \n ";
+    
     return 0;
 }
