@@ -2,6 +2,7 @@
 
 class Crystal
 {
+    public:
     int num = 0;
 
     Crystal()
@@ -20,6 +21,9 @@ class Crystal
 int main()
 {
     std::cout << "in the main function: \n ";
+
+    Crystal c;
     
+
     return 0;
 }
