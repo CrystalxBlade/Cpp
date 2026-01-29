@@ -3,7 +3,7 @@
 class Crystal
 {
     public:
-    int num = 0;
+    static int num;
 
     Crystal()
     {
@@ -14,16 +14,18 @@ class Crystal
     ~Crystal()
     {
         num--;
-        std::cout << "destruct for Obj : " << num << '\n';
+        std::cout << "Destruct for Obj : " << num << '\n';
     }
 };
 
+int Crystal::num = 0;
+
 int main()
 {
-    std::cout << "in the main function: \n ";
+    std::cout << "in the main function - - - - -\n ";
 
-    Crystal c;
-    
+    Crystal c1;
+    Crystal c2;
 
     return 0;
 }
