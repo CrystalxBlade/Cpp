@@ -3,7 +3,7 @@
 int main()
 {
 
-    std::cout << " ";
+    std::cout << " Encapsulation";
 
     return 0;
 }
