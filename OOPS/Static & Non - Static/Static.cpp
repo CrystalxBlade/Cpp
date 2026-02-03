@@ -25,6 +25,7 @@ int main()
     std::cout << "Roll of s1: " << s1.roll << '\n';
     std::cout << "Roll of s2: " << s2.roll << '\n';
 
+    std::cout << "Total students: " << Student::totaSudents << '\n';
 
     return 0;
 }
