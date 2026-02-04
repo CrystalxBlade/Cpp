@@ -3,9 +3,11 @@
 class BankAccount
 {
     private:
-      std::string accountNumber;
-      double balance;
-}
+       std::string accountNumber;
+       double balance;
+
+       
+};
 
 int main()
 {
