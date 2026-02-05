@@ -17,6 +17,30 @@ class BankAccount
     {
         return balance;
     }
+
+    double setBalance(double amount)
+    {
+        if(amount > 0)
+        {
+            balance += amount;
+        }
+        else
+        {
+            std::cout << "Invalid deposit amount";
+        }
+    }
+
+    void withdraw(double amount)
+    {
+        if (amount > 0 && amount <= balance)
+        {
+            balance -= amount;
+        }
+        else
+        {
+            std::cout << "Invalid withdrawn amount";
+        }
+    }
 };
 
 int main()
