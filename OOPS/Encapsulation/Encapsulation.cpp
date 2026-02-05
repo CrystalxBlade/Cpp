@@ -13,9 +13,9 @@ class BankAccount
         balance = initialBal;
     }
 
-    double getBalance()
+    void getBalance()
     {
-        return balance;
+        std::cout << "Current balance: " << balance << "\n"; 
     }
 
     double setBalance(double amount)
@@ -23,6 +23,7 @@ class BankAccount
         if(amount > 0)
         {
             balance += amount;
+            std::cout << amount << " has been deposited \n";
         }
         else
         {
