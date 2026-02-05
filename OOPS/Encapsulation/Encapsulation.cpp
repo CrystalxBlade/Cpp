@@ -45,5 +45,7 @@ class BankAccount
 
 int main()
 {
+    BankAccount myAccount("6969", 20000);
+
     return 0;
 }
