@@ -6,7 +6,12 @@ class BankAccount
        std::string accountNumber;
        double balance;
 
-       
+    public:
+       BankAccount(std::string accnum, double initialBal)
+       {
+         accountNumber = accnum;
+         balance = initialBal;;
+       }   
 };
 
 int main()
