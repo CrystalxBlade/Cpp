@@ -3,15 +3,20 @@
 class BankAccount
 {
     private:
-       std::string accountNumber;
-       double balance;
+    std::string accoutnNumber;
+    double balance;
 
     public:
-       BankAccount(std::string accnum, double initialBal)
-       {
-         accountNumber = accnum;
-         balance = initialBal;;
-       }   
+    BankAccount(std::string accnum, double initialBal)
+    {
+        accoutnNumber = accnum;
+        balance = initialBal;
+    }
+
+    void getBalance()
+    {
+        
+    }
 };
 
 int main()
