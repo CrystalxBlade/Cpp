@@ -13,9 +13,9 @@ class BankAccount
         balance = initialBal;
     }
 
-    void getBalance()
+    double getBalance()
     {
-        
+        return balance;
     }
 };
 
