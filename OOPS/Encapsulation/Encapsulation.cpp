@@ -47,5 +47,7 @@ int main()
 {
     BankAccount myAccount("6969", 20000);
 
+    myAccount.getBalance();
+
     return 0;
 }
