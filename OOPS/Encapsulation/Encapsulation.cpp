@@ -36,7 +36,7 @@ class BankAccount
         if (amount > 0 && amount <= balance)
         {
             balance -= amount;
-            std::cout << amount << "amount withdrawn \n";
+            std::cout << "amount withdrawn: " << amount << '\n';
         }
         else
         {
