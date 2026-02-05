@@ -36,6 +36,7 @@ class BankAccount
         if (amount > 0 && amount <= balance)
         {
             balance -= amount;
+            std::cout << amount << "amount withdrawn \n";
         }
         else
         {
@@ -48,6 +49,10 @@ int main()
 {
     BankAccount myAccount("6969", 20000);
 
+    myAccount.getBalance();
+    myAccount.setBalance(500);
+    myAccount.getBalance();
+    myAccount.withdraw(1000);
     myAccount.getBalance();
 
     return 0;
