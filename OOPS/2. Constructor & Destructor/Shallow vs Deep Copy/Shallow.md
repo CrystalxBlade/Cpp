@@ -40,10 +40,10 @@ c1.mana ─┐
          ├──► [10]
 c2.mana ─┘
 ```
-❌ What goes wrong
+## ❌ What goes wrong
 
-c1 destructor deletes memory
+### c1 destructor deletes memory
 
-c2 destructor deletes SAME memory again
+### c2 destructor deletes SAME memory again
 
-💥 Crash / undefined behavior
+### 💥 Crash / undefined behavior
