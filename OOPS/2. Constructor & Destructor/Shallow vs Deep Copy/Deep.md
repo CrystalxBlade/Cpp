@@ -1,5 +1,6 @@
-2️⃣ DEEP COPY (correct & safe)
-✅ Solution: allocate new memory and copy value
+# DEEP COPY (correct & safe)
+## ✅ Solution: allocate new memory and copy value
+```
 #include <iostream>
 
 class Crystal
@@ -36,10 +37,12 @@ int main()
 
     return 0;
 }
+```
 
-Memory now
+## Memory now
+```
 c1.mana ───► [10]
 c2.mana ───► [10]
+```
 
-
-Separate memory. Safe destruction. No crash.
+### Separate memory. Safe destruction. No crash.
