@@ -13,11 +13,14 @@ class Movie
         Genre = genre;
         Rating = rating; 
     }
-    
+
 };
 
 
 int main()
 {
+    Movie m1("Batman", "Action", 9.5);
+    Movie m2("F1", "Racing", 9.6);
+
     return 0;
 }
