@@ -25,6 +25,14 @@ class Movie
         Genre = original.Genre;
         Rating = original.Rating;
     }
+    Movie& operator=(const Movie& original)
+    {
+        Name = original.Name;
+        Genre = original.Genre;
+        Rating = original.Rating;
+
+        return *this;
+    }
 };
 
 
@@ -34,5 +42,6 @@ int main()
     Movie m2("F1", "Racing", 9.6);
 
     Movie m3(m1);
-    return 0;
+    Movie m4 = m2;
+    return 0; 
 }
