@@ -43,9 +43,7 @@ int* p = &x;
 
 ### 🧩 Line by line
 ### 1️⃣ int* p;
-
 ### p is a pointer to an int
-
 ### Means: p can store the address of an int
 
 ## 2️⃣ &x
