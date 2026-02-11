@@ -47,13 +47,10 @@ int* p = &x;
 ### Means: p can store the address of an int
 
 ## 2️⃣ &x
-
 ### & = address-of operator
-
 ### &x means: “give me the address of x”
 
 ## 3️⃣ p = &x;
-
 ### p now stores where x lives in memory
 
 ### So:
