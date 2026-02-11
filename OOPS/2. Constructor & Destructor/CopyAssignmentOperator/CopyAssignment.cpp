@@ -13,7 +13,18 @@ class Movie
         Genre = genre;
         Rating = rating; 
     }
-
+    Movie()
+    {
+        Name = "";
+        Genre = "";
+        Rating = 0;
+    }
+    Movie(const Movie& original)
+    {
+        Name = original.Name;
+        Genre = original.Genre;
+        Rating = original.Rating;
+    }
 };
 
 
