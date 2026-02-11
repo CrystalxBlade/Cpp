@@ -41,7 +41,12 @@ int main()
     Movie m1("Batman", "Action", 9.5);
     Movie m2("F1", "Racing", 9.6);
 
-    Movie m3(m1);
-    Movie m4 = m2;
+    Movie m3(m1);       // Copy constructor
+
+    // Movie m4 = m2;    Copy constructor ❌
+
+    Movie m4;
+    m4 = m2;           // Copy Assignment Operator ✔️
+
     return 0; 
 }
