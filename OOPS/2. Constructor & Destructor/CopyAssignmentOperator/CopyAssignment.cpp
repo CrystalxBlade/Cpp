@@ -45,8 +45,10 @@ int main()
 
     // Movie m4 = m2;    Copy constructor ❌
 
-    Movie m4;
+    Movie m4;           // object already exists
     m4 = m2;           // Copy Assignment Operator ✔️
+
+    // m4.operator= (m2);   Optional
 
     return 0; 
 }
