@@ -1,6 +1,7 @@
 #include <iostream>
 
-// "const int *" is a pointer to a const int.
+// "const int * " is a pointer to a const int.
+// "int* const " 
 
 int main()
 {
