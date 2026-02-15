@@ -8,8 +8,10 @@ int main()
 {
     int x = 2;
     int y = 4;
+
+    int* p = &x;
     
-    const int* p = &x; 
+    std::cout << *p;
 
     return 0;
 }
