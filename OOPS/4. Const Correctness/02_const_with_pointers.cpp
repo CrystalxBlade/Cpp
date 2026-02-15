@@ -29,10 +29,19 @@ int main()
     *p = 30;   // ✔️ allowed (value can change)
 //   p = &y;   // ❌ NOT allowed (pointer is const)
 
-    //  “we can change the value stored in the pointer, but not the address through the pointer”
+    //  “we can't change the address or the value through the pointer”
 
 */
 
+
+     int x = 10;
+
+     const int* const p = &x;
+
+//     *p = 20;  // ❌
+//      p = &x;  // ❌
+
+   // we can't change address plus the value in the pointer"
 
 
     return 0;
