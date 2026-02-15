@@ -6,10 +6,12 @@
 
 int main()
 {
-    int x = 2;
+    // “we can change the address stored in the pointer, but not the value through the pointer”
     int y = 4;
-
-    int* p = &x;
+    
+    const int* p;
+//   *p = 30;     ❌ NOT allowed (value is const)
+     p = &y;   // ✔️ allowed (pointer can change)
     
     std::cout << *p;
 
