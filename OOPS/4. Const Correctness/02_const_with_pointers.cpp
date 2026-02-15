@@ -7,9 +7,12 @@
 int main()
 {
     // “we can change the address stored in the pointer, but not the value through the pointer”
+    
+    int x = 2;
     int y = 4;
     
-    const int* p;
+    const int* p = &x;
+    
 //   *p = 30;     ❌ NOT allowed (value is const)
      p = &y;   // ✔️ allowed (pointer can change)
     
