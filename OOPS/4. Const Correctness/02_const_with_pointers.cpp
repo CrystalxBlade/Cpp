@@ -6,7 +6,10 @@
 
 int main()
 {
-    
+    int x = 2;
+    int y = 4;
+
+    const int* p = &x; 
 
     return 0;
 }
