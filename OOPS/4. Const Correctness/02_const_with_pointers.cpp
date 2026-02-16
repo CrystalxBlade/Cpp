@@ -35,7 +35,6 @@ int main()
 
 
      int x = 10;
-
      const int* const p = &x;
 
 //     *p = 20;  // ❌
