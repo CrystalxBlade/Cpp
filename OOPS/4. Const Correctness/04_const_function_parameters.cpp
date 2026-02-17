@@ -11,6 +11,5 @@ int main()
     int a = 5;
     printNumber(a);
 
-
     return 0;
 }
