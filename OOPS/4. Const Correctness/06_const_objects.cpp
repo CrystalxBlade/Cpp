@@ -2,21 +2,27 @@
 
 class Player
 {
-    public:
-    std::string name;
+    int hp;
 
-    Player(std::string name)
+public:
+    Player(int h) : hp(h) {}
+
+    int getHP() const
     {
-        this->name = name;
+        return hp;   // ✔️ read allowed
+    }
+
+    void takeDamage(int dmg)
+    {
+        hp -= dmg;   // ❌ modifies object
     }
 };
 
+
 int main()
 {
-    Player p("Blade"); 
-    
-    std::cout << "The name is : " << p.name << '\n';
-    
+    const Player p(100);
 
-    return 0;
+    p.getHP();        // ✔️ allowed
+    // p.takeDamage(10);  // ❌ NOT allowed
 }
