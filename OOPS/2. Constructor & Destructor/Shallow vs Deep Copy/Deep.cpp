@@ -23,9 +23,17 @@ public:
         delete hp;
         std::cout << "Destructor Called \n";
        }
-}
+};
 
 int main()
 {
+    Blade a(100);
+    Blade b = a;  // Deep Copy
+    
+    *b.hp = 200;
+
+    std::cout << "a.hp = " << *a.hp << '\n';
+    std::cout << "b.hp = " << *b.hp << '\n';
+
     return 0;
 }
