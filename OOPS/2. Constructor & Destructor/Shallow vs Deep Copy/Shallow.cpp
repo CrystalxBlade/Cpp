@@ -1,30 +1,30 @@
 #include <iostream>
 
-class Car
+class Blade
 {
-    public:
+public:
 
-    int speed;
-    int model;
+    int* hp;
 
-    
-    Car(){}
-
-    Car(const Car& c)
+    Blade(int value)
     {
-        speed = c.speed;
-        model = c.model; 
+        hp = new int(value);
+    }
+    
+        // ❌ No copy constructor → shallow copy
+
+    ~Blade()
+    {
+        delete hp;
+        std::cout << "Destructor called";
     }
 
 };
 
 int main()
 {
-    Car BMW;
-
-    BMW.speed = 200;
-    BMW.model = 2002;
-    
+    Blade a(100);
+    Blade b = a;   // Shallow Copy 
     
     return 0;
 }
