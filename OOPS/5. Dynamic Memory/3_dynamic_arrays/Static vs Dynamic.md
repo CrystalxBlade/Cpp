@@ -49,3 +49,12 @@ arr[0] = 10;
 // free memory
 delete[] arr;
 ```
+## Characteristics
+
+- Size decided during execution
+
+- Flexible
+
+- Needs new[] and delete[]
+
+- Risk of memory leaks if forgotten
