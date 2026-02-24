@@ -6,7 +6,7 @@
 int* p = new int(5);
 delete p;   // ✔️ correct
 ```
-###🔹 delete[]
+### 🔹 delete[]
 
 ### Destroys each element in an array
 ```
