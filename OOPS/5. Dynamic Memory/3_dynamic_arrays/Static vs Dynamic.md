@@ -26,3 +26,26 @@ int arr[5] = {1, 2, 3, 4, 5};
 - When size is known beforehand
 
 - Small, temporary data
+
+------------------------------------------------------
+## 🔹 Dynamic Array
+### What it is
+
+- Size decided at runtime
+
+- Stored on the heap
+
+- You must manually free memory
+
+## Example
+
+```
+int size = 5;
+int* arr = new int[size];
+
+// use array
+arr[0] = 10;
+
+// free memory
+delete[] arr;
+```
