@@ -76,3 +76,10 @@ int main()
 }
 
 */
+
+int main()
+{
+    int *p = new int(10);
+
+    int *a = new int[10]; 
+}
