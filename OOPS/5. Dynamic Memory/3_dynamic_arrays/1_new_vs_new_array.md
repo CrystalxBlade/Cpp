@@ -5,7 +5,7 @@
 ```
 int* p = new int(10);
 ```
-What happens:
+### What happens:
 
 - Memory for one int is allocated on the heap
 
