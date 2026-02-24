@@ -58,3 +58,16 @@ delete[] arr;
 - Needs new[] and delete[]
 
 - Risk of memory leaks if forgotten
+
+--------------------------------------------------------
+
+
+
+| Feature    | Static Array   | Dynamic Array |
+| ---------- | -------------- | ------------- |
+| Size       | Fixed          | Runtime       |
+| Memory     | Stack          | Heap          |
+| Allocation | Automatic      | Manual        |
+| Cleanup    | Automatic      | Manual        |
+| Flexible   | ❌              | ✔️            |
+| Risk       | Stack overflow | Memory leak   |
