@@ -61,5 +61,6 @@ int main()
    std::vector<int> vec = {4, 2, 8, 6};
    vec.erase(vec.begin());                 // {2, 8, 6}
    */
+
     return 0;
 }

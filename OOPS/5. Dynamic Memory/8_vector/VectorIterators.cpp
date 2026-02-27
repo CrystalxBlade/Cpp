@@ -3,11 +3,11 @@
 
 int main()
 {
-    std::vector<int> vec = {4, 2, 8, 6};
-    vec.insert(vec.begin(), 5);
-    for(int i : vec)
-    {
-        std::cout << i << " ";
-    }
+    std::vector<int> vec = {10, 20, 30, 40};
+
+    std::vector<int>::iterator it;
+
+    
+
     return 0;
 }
