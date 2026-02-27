@@ -53,7 +53,13 @@ int main()
     std::vector<char> vec = {'a', 'b', 'c', 'd', 'e'};
     vec.resize(7);
 
-    */
-   
+                     // insert
+    std::vector<int> vec = {4, 2, 8, 6};
+    vec.insert(vec.begin(), 5);             //  {5, 4, 2, 8, 6}
+
+                     // erase
+   std::vector<int> vec = {4, 2, 8, 6};
+   vec.erase(vec.begin());                 // {2, 8, 6}
+   */
     return 0;
 }
