@@ -7,7 +7,10 @@ int main()
 
     std::vector<int>::iterator it;
 
-    
+    for(it = vec.begin(); it != vec.end(); ++it)
+    {
+        std::cout << *it << " ";
+    }
 
     return 0;
 }
