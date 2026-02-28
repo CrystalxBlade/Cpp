@@ -1,5 +1,10 @@
 #include <iostream>
 
+class Animal
+{
+
+}
+
 int main()
 {
 

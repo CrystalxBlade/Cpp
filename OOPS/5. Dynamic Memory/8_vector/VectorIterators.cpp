@@ -39,9 +39,19 @@ int main()
         std::cout << *(it) << " ";
     }
 
-    */
+            //    Const Iterators
 
-    std::vector<int> vec = {10, 20, 30, 40}
+    std::vector<int> vec = {10, 20, 30, 40};
+    std::vector<int>::const_iterator it;
+
+    for(it = vec.cbegin(); it != vec.cend(); ++it)
+    {
+        std::cout << *it << ' ';
+    }
+        // also : 
+
+    for (auto it = v.cbegin(); it != v.cend(); ++it)
     
+    */
     return 0;
 }
