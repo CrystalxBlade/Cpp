@@ -1,28 +1,28 @@
 #include <iostream>
 
-class Animal
+class Vehicle
 {
     public:
-    void run()
+    void Start()
     {
-        std::cout << " Running ";
+        std::cout << "Engine  \n";
     }
 };
 
-class Dog : public Animal
+class Car : public Vehicle
 {
     public:
-    void walk()
+    void Drive()
     {
-        std::cout << "Dog is walking";
+        std::cout << "Driving Car";
     }
 };
 
 int main()
 {
-    Dog d;
-    d.run();             // Inherited Function
-    d.walk();           //  Own Function
+    Car c;
+    c.Start();             // Inherited Function
+    c.Drive();           //  Own Function
 
     return 0;
 }
