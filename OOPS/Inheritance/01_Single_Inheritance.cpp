@@ -22,7 +22,7 @@ int main()
 {
     Car c;
     c.Start();             // Inherited Function
-    c.Drive();           //  Own Function
+    c.Drive();             //  Own Function
 
     return 0;
 }

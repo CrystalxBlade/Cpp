@@ -1,6 +1,16 @@
 #include <iostream>
 
-int main()
+class Vehicle
+{
+    public: 
+    int speed;
+};
+class Car : public Vehicle
 {
     
+};
+
+int main()
+{
+
 }
