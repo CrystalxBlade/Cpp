@@ -3,11 +3,6 @@
 class Animal
 {
     public:
-    Animal()
-    {
-        std::cout << "Animal Constructors";
-    }
-
     void run()
     {
         std::cout << " Running ";
