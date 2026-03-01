@@ -34,7 +34,7 @@ class Car : public Vehicle
         std::cout << "Car honking \n";
     }
 };
-class ElectricCar : Car
+class ElectricCar : public Car
 {
     private:
     int battery;
@@ -45,9 +45,18 @@ class ElectricCar : Car
         battery  = b;
         std::cout << "ElectricCar Constructor \n";
     }
+
+    void charge()
+    {
+        std::cout << "Battery Level : " << battery << "% \n";
+    }
 };
 
 int main()
 {
+    ElectricCar tesla(100, 4, 80);
 
+    tesla.move();
+    tesla.honk();
+    tesla.charge();
 }
