@@ -26,8 +26,17 @@ class Car : public Vehicle
     Car(int s, int w) : Vehicle(s)
     {
         wheels = w;
-        std::cout << "Car constructor"
+        std::cout << "Car constructor \n";
     }
+
+    void honk()
+    {
+        std::cout << "Car honking \n";
+    }
+};
+class ElectricCar : Car
+{
+    
 };
 
 int main()
