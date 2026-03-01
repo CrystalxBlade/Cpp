@@ -8,7 +8,7 @@ class Vehicle
     public:
     Vehicle(int s)
     {
-        
+        speed = s;
     }
 };
 class Car : public Vehicle
