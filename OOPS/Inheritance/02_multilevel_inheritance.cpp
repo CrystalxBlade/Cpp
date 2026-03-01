@@ -2,8 +2,14 @@
 
 class Vehicle
 {
-    public: 
+    protected: 
     int speed;
+
+    public:
+    Vehicle(int s)
+    {
+        
+    }
 };
 class Car : public Vehicle
 {
