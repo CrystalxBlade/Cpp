@@ -36,7 +36,15 @@ class Car : public Vehicle
 };
 class ElectricCar : Car
 {
-    
+    private:
+    int battery;
+
+    public:
+    ElectricCar(int s, int w, int b) : Car(s,w)
+    {
+        battery  = b;
+        std::cout << "ElectricCar Constructor \n";
+    }
 };
 
 int main()
