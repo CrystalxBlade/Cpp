@@ -42,7 +42,7 @@ class ElectricCar : public Car
     int battery;
 
     public:
-    ElectricCar(int s, int w, int b) : Car(s,w)
+    ElectricCar(int s, int w, int b) : Car(s,w)  
     {
         battery  = b;
         std::cout << "ElectricCar Constructor \n";
