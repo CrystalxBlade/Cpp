@@ -1,5 +1,7 @@
 #include <iostream>
 
+                                      // : -> initializer
+
 class Vehicle
 {
     protected: 
