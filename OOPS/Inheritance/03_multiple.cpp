@@ -28,9 +28,9 @@ class SmartPhone : public Phone, public Camera
 int main()
 {
     SmartPhone s;
-    s.Call();
-    s.Photo();
-    s.Internet();
+    s.Call();                       // from Phone
+    s.Photo();                      // from Camera
+    s.Internet();                   // Own function
 
     return 0;
 }
