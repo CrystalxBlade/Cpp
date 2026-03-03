@@ -16,7 +16,7 @@ class Camera
         std::cout << "Phot taken \n";
     }
 };
-class SmartPhone : public Phone, Camera
+class SmartPhone : public Phone, public Camera
 {
     public:
     void Internet()
@@ -29,6 +29,8 @@ int main()
 {
     SmartPhone s;
     s.Call();
+    s.Photo();
+    s.Internet();
 
     return 0;
 }
