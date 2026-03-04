@@ -62,8 +62,12 @@ class Player
 
 int main()
 {
-    Player p("Crystal", 2,3);
-    p.show();
+    Player p;
+    Player p2(100);
+    Player p3(100, 1);
+    Player p4(100, 1, "Crystal");
+    Player p5("Crystal", 2,3);
+    
 
     return 0;
 }
