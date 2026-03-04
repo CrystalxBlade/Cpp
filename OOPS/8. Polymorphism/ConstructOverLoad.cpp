@@ -15,7 +15,7 @@ class Player
         health = 100;
         level = 1;
         name = "Blade";
-        std::cout << "Defalut Player created \n";
+        std::cout << "Default Player created \n";
     }
 
     // 2️⃣ Different NUMBER of parameters
@@ -56,7 +56,7 @@ class Player
 
     void show()
     {
-        std::cout << "Health: " << health << " - Levle: " << level << " - Name: " << name << '\n'; 
+        std::cout << "Health: " << health << " - Level: " << level << " - Name: " << name << '\n'; 
     }
 };
 
