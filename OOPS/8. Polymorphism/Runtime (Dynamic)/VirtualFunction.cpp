@@ -1,5 +1,7 @@
 #include <iostream>
 
+                    // Without virtual function
+/*
 class Animal
 {
     public:
@@ -19,5 +21,13 @@ class Dog : public Animal
 
 int main()
 {
+    Animal* ptr;
+    Dog d;
+
+    ptr = &d;
+    ptr->speak();
+    
     return 0;
 }
+
+*/
