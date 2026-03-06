@@ -12,7 +12,7 @@ showBalance(acc1)
 allowed because class declared it as friend
 ```
 
-### Without friend, this line would explode with an error:
+- Without friend, this line would explode with an error:
 
 ```
 acc.balance ❌ private
