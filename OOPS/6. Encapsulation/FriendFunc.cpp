@@ -11,7 +11,8 @@ class BankAccount
         balance = b;
     }
 
-    
+       // friend function declaration
+    friend void showBalance(BankAccount ac);
 };
 
 int main()
