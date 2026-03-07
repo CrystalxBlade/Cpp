@@ -8,7 +8,7 @@ class Animal
 class Dog : public Animal
 {
     public:
-    void speak()
+    void speak() override
     {
         std::cout << "Dog barks \n";
     }
