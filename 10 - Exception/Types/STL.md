@@ -8,7 +8,7 @@ Some common ones:
 
 |    Exception	          |     Meaning                               |
 |-------------------------|-------------------------------------------|
-| std::exception          |	    Base class of most standard exceptions|
+| std::exception          |	    Base class of most standard exceptions
 | std::runtime_error      |	    Error during runtime                  |
 | std::logic_error        |	    Error in program logic                |
 | std::out_of_range       |	    Accessing invalid index               |
