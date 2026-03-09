@@ -1,11 +1,11 @@
-1. Built-in (Primitive) Exceptions
+## 1. Built-in (Primitive) Exceptions
 
-These are basic data types thrown as errors.
+### These are basic data types thrown as errors.
 
-Examples:
-int, double, char, const char*
+### Examples:
+### int, double, char, const char*
 
-Example:
+### Example:
 ```
 #include <iostream>
 using namespace std;
@@ -22,10 +22,9 @@ int main()
     }
 }
 ```
-Here the program throws an integer as an exception.
+### Here the program throws an integer as an exception.
 
-Another example:
-
+### Another example:
+```
 throw "File not found";
-
-That is a C-style string exception.
+```
