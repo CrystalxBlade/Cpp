@@ -8,9 +8,35 @@ Some common ones:
 
 |    Exception	          |     Meaning                               |
 |-------------------------|-------------------------------------------|
-| std::exception          |	    Base class of most standard exceptions
+| std::exception          |	    Base class of most standard exceptions|
 | std::runtime_error      |	    Error during runtime                  |
 | std::logic_error        |	    Error in program logic                |
 | std::out_of_range       |	    Accessing invalid index               |
 | std::invalid_argument   |	    Invalid function argument             |
 | std::bad_alloc          |	    Memory allocation failure             |
+
+
+## Example:
+```
+#include <iostream>
+#include <stdexcept>
+using namespace std;
+
+int main()
+{
+    try
+    {
+        throw runtime_error("Something went wrong");
+    }
+    catch(runtime_error& e)
+    {
+        cout << e.what();
+    }
+}
+```
+### Output:
+```
+Something went wrong
+```
+
+## what() is a function that returns the error message.
