@@ -1,10 +1,10 @@
-2. Standard Library Exceptions
+## 2. Standard Library Exceptions
 
-C++ has a built-in hierarchy of exception classes inside the <stdexcept> and <exception> libraries.
+### C++ has a built-in hierarchy of exception classes inside the <stdexcept> and <exception> libraries.
 
-They are more professional and commonly used.
+### They are more professional and commonly used.
 
-Some common ones:
+### Some common ones:
 
 |    Exception	          |     Meaning                               |
 |-------------------------|-------------------------------------------|
@@ -16,7 +16,7 @@ Some common ones:
 | std::bad_alloc          |	    Memory allocation failure             |
 
 
-## Example:
+### Example:
 ```
 #include <iostream>
 #include <stdexcept>
