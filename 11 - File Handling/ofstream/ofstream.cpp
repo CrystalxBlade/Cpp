@@ -3,7 +3,7 @@
 
 int main()
 {
-    std::ofstream file("data.txt");
+    std::ofstream file("data.txt");    
 
     file << "Hello Blade";
     file << "C++ file Handling";
