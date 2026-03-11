@@ -24,6 +24,7 @@ Example real uses:
 ### C++ mainly uses three classes.
 
 |Class	     |    Purpose      |
+|------------|-----------------|
 |ofstream	 | Write to file   |
 |ifstream	 | Read from file  |
 |fstream	 | Read + Write    |
