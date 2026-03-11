@@ -1,14 +1,14 @@
-What File Handling Is
+## What File Handling Is
 
-File handling in C++ is used to:
+### File handling in C++ is used to:
 
-create files
+- create files
 
-read data from files
+- read data from files
 
-write data to files
+- write data to files
 
-update stored data
+- update stored data
 
 Example real uses:
 
@@ -17,4 +17,4 @@ Example real uses:
 • saving login credentials
 • loading configuration files
 
-As someone building games with Unity and Unreal, this concept is actually very important later for things like save systems.
+### As someone building games with Unity and Unreal, this concept is actually very important later for things like save systems.
