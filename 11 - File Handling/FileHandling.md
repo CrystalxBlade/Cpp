@@ -12,9 +12,9 @@
 
 Example real uses:
 
-• saving a game progress 🎮
-• storing player scores
-• saving login credentials
-• loading configuration files
+- saving a game progress 🎮
+- storing player scores
+- saving login credentials
+- loading configuration files
 
 ### As someone building games with Unity and Unreal, this concept is actually very important later for things like save systems.
