@@ -7,7 +7,7 @@ int main()
     myfile.open("sample.txt", std::ios::out);
     if(myfile.is_open())
     {
-        myfile << "This is my file";
+        myfile << "This is my file \n";
     }
 
     myfile.close();
