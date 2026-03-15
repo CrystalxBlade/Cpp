@@ -9,9 +9,10 @@ int main()
     myfile.open("sample.txt", ios::app);
     if (myfile.is_open())
     {
-        myfile << ""
+        myfile << "new appended txt";
     }
     
+    myfile.close();
 
     return 0;
 }
