@@ -1,12 +1,10 @@
 #include <iostream>
 #include <fstream>
 
-using namespace std;
-
 int main()
 {
-    fstream myfile;     
-    myfile.open("sample.txt", ios::app);
+    std::fstream myfile;     
+    myfile.open("sample.txt", std::ios::app);
     if (myfile.is_open())
     {
         myfile << "new appended txt";
