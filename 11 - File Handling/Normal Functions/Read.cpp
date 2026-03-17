@@ -12,9 +12,8 @@ int main()
         {
             std::cout << line;
         }
-        
+        myfile.close();
     }
-    
 
     return 0;
 }
