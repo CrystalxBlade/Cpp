@@ -7,7 +7,12 @@ int main()
 
     if(myfile.is_open())
     {
-
+        std::string line;
+        while (getline(myfile, line))
+        {
+            std::cout << line;
+        }
+        
     }
     
 
