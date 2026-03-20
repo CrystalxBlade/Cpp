@@ -1,8 +1,7 @@
 ## 🧩 STL Has 3 Main Parts
 
-## STL
+### STL
 
-## │
-## ├── Containers   (store data)
-## ├── Algorithms   (operate on data)
-## └── Iterators    (connect both)
+- Containers   (store data)
+- Algorithms   (operate on data)
+- Iterators    (connect both)
