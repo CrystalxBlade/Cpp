@@ -1,0 +1,1 @@
+## List is also a squential containers like vectors but it is internally implemented as doubly linked list 
