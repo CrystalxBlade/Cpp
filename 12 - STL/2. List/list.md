@@ -2,3 +2,4 @@
 
 - we can push from back & front
 - we can pop from back & front
+- deque is implemented with the help of dynamic arrays
