@@ -5,9 +5,11 @@ int main()
 {
     std::list<int> l;
 
-    l.push_back(1);
-    l.push_back(2);
-    l.push_back(3);
+    l.push_back(4);
+    l.push_back(7);
+    l.push_front(9);
+    l.emplace_back(2);
+    l.emplace_front(5);
 
     for(int li : l)
     {
