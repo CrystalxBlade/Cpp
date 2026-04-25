@@ -10,6 +10,8 @@ int main()
     l.push_front(9);
     l.emplace_back(2);
     l.emplace_front(5);
+    l.pop_back();
+    l.pop_front();
 
     for(int li : l)
     {
