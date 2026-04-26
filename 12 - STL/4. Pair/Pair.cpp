@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 
 int main()
 {
@@ -17,5 +18,13 @@ int main()
     std::cout << p.second.second;               // 8
 
     */
+
+
+    std::vector<std::pair<int,int>> vec = {{2, 4}, {6,8}, {10, 12}};
+
+    for(std::pair<int,int> p : vec)
+    {
+        std::cout << p.first << " " << p.second << " " << '\n';
+    }
     return 0;
 }
