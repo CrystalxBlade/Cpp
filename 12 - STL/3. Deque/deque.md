@@ -13,7 +13,7 @@ std::cout << l[2];
 ```
 
 ```
-std::deque<int> d = {9, 2, 5, 7};
+std::deque<int> d = {9, 2, 5, 7};    ✅ random memory is accessible
 
 std::cout << d[2];
 ```
