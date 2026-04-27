@@ -22,7 +22,7 @@ int main()
 
     std::vector<std::pair<int,int>> vec = {{2, 4}, {6,8}, {10, 12}};
 
-    for(std::pair<int,int> p : vec)
+    for(auto p : vec)
     {
         std::cout << p.first << " " << p.second << " " << '\n';
     }
