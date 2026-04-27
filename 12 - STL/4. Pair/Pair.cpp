@@ -42,7 +42,19 @@ int main()
 
     -------------------------------------------------------
 
-    */
-   
+    
+   std::vector<std::pair<int, int>> vec;
+
+   vec.emplace_back(6,9);
+   vec.emplace_back(7,2);
+
+   for(auto p : vec)
+   {
+       std::cout << p.first << " " << p.second << '\n'; 
+   }
+       Note* While using emplace we don't need to put these {{2,5}} brackets like push_back we can
+       write {5,2} becuz it makes pairs for us automatically 
+   */
+
     return 0;
 }
