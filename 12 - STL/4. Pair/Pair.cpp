@@ -30,6 +30,18 @@ int main()
     }
 
     -------------------------------------------------------
+
+    std::vector<std::pair<int,int>> vec;
+    vec.push_back({5,2});
+    vec.push_back({3,7});
+
+    for(std::pair<int, int> p : vec)
+    {
+        std::cout << p.first << " " << p.second << '\n';
+    }
+
+    -------------------------------------------------------
+
     */
    
     return 0;
