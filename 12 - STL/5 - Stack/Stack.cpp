@@ -40,7 +40,7 @@ int main()
    s2.swap(s1);
 
    std::cout << "s1 size: " << s1.size() << '\n';
-   std::cout << "s2 size: " << s2.size();
+   std::cout << "s2 size: " << s2.size(); 
 
     return 0;
 }
