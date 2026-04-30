@@ -1,0 +1,1 @@
+##  not really a container, more a utility. Used heavily with map and unordered_map.
