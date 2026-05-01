@@ -16,3 +16,11 @@ Priority queue:
        /  \
      20    10
 ```
+
+```
+std::priority_queue<int, std::vector<int>, std::greater<int>> q;
+                                                  \
+                                                  functor         // greater<int> is functor 
+                                                   \
+                                                  (function object) // functor is nothing but a functin object;
+```
