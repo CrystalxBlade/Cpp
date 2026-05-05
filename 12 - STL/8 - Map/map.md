@@ -1,0 +1,1 @@
+## It stores key → value pairs, and it always keeps keys sorted.
