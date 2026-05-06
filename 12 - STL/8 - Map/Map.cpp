@@ -8,6 +8,8 @@ int main()
     m["tv"] = 100;
     m["laptop"] = 100;
     m["headphones"] = 50;
+    m["tablet"] = 120;
+    m["watch"] = 50;
 
     for(auto p: m)
     {
