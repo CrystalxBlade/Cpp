@@ -71,8 +71,30 @@ int main()
     {
         std::cout << p.first << " " << p.second << '\n';
     } 
-        
-    */
+      
 
+    ----------------------------------------
+                                       find
+    m["tv"] = 100;
+    m["laptop"] = 100;
+    m["headphones"] = 50;
+    m["tablet"] = 120;
+    m["watch"] = 50;
+
+    for(auto p: m)
+    {
+        std::cout << p.first << " " << p.second << '\n';
+    }
+
+    if(m.find("tablet") != m.end())
+    {
+        std::cout << "found";
+    }
+    else
+    {
+        std::cout << "not found";
+    }
+
+    */
     return 0;
 }
