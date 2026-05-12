@@ -5,11 +5,11 @@ int main()
 {
     std::unordered_set<int> u;
 
-    u.emplace(2);
-    u.emplace(4);
-    u.emplace(6);
-    u.emplace(8);
-    u.emplace(10);
+    u.insert(2);
+    u.insert(4);
+    u.insert(6);
+    u.insert(8);
+    u.insert(10);
 
     for(auto s : u)
     {
