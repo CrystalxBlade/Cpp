@@ -6,7 +6,7 @@ int main()
 {
     /*
 
-    int arr[5] = {3, 5, 1, 8, 2};
+    int arr[5] = {3, 5, 1, 8, 2};                      sort(arr, arr + n)
 
     std::sort(arr, arr + 5);
 
@@ -15,9 +15,9 @@ int main()
         std::cout << val << " ";
     }
 
-    */
+    --------------------------------------------
 
-    std::vector<int> vec = {3, 5, 1, 8, 2};
+    std::vector<int> vec = {3, 5, 1, 8, 2};            sort(vec.begin(), vec.end())
 
     std::sort(vec.begin(), vec.end());
 
@@ -25,6 +25,8 @@ int main()
     {
         std::cout << val << " ";
     }
+
+    */
 
     return 0;
 }
