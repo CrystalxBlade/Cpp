@@ -26,9 +26,10 @@ int main()
         std::cout << val << " ";
     }
 
-    */
+    --------------------------------------------
 
-    std::vector<int> vec = {3, 5, 1, 8, 2};
+    std::vector<int> vec = {3, 5, 1, 8, 2};              descending order 
+
     std::sort(vec.begin(), vec.end(), std::greater<int>());
 
     for(int val : vec)
@@ -36,5 +37,6 @@ int main()
         std::cout << val << " ";
     }
 
+    */
     return 0;
 }
