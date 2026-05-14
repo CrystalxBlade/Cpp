@@ -43,5 +43,12 @@ int main()
 
     std::vector<std::pair<int, int>> vec = {{3,1}, {2,1}, {7,1}, {5, 2}};
 
+    std::sort(vec.begin(), vec.end());
+
+    for(auto p : vec)
+    {
+        std::cout << p.first << " " << p.second << '\n';
+    }
+
     return 0;
 }
