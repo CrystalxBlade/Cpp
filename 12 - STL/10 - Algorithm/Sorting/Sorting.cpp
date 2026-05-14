@@ -2,9 +2,10 @@
 #include <algorithm>
 #include <vector>
 
+ /*
 int main()
 {
-    /*
+   
 
     int arr[5] = {3, 5, 1, 8, 2};                      sort(arr, arr + n)
 
@@ -39,6 +40,8 @@ int main()
 
     --------------------------------------------
 
+                                //   sorting but using the first element of each pair
+
     std::vector<std::pair<int, int>> vec = {{3,1}, {2,1}, {7,1}, {5, 2}};
 
     std::sort(vec.begin(), vec.end());
@@ -48,11 +51,23 @@ int main()
         std::cout << p.first << " " << p.second << '\n';
     }
 
+
+    --------------------------------------------
+                                //  Custom comparator
      */
+
+     bool comparator(std::pair<int, int> p1, std::pair<int, int> p2)
+     {
+        if(p1.second > p2.second) return true;
+        else return false;
+     }
+
+    int main()
+{
 
     std::vector<std::pair<int, int>> vec = {{3,1}, {2,1}, {7,1}, {5, 2}};
 
-    std::sort(vec.begin(), vec.end());
+    std::sort(vec.begin(), vec.end(), comparator);
 
     for(auto p : vec)
     {
